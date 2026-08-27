@@ -100,8 +100,17 @@ A lightweight Linux utility for installing useful keyboard shortcuts with backup
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=BLCCoreStudio&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=8B5CF6&text_color=C9D1D9&ring_color=8B5CF6" alt="BLC Core Studio GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BLCCoreStudio&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Most used languages" />
+### 📈 Profile Stats
+
+![GitHub followers](https://img.shields.io/github/followers/BLCCoreStudio?style=for-the-badge&logo=github&label=Followers&color=7C3AED)
+![RepoDoctor stars](https://img.shields.io/github/stars/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=github&label=RepoDoctor%20Stars&color=2563EB)
+![TermKeys stars](https://img.shields.io/github/stars/BLCCoreStudio/TermKeys?style=for-the-badge&logo=github&label=TermKeys%20Stars&color=06B6D4)
+
+### 💻 Languages & Activity
+
+![RepoDoctor language](https://img.shields.io/github/languages/top/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=github&label=RepoDoctor&color=7C3AED)
+![TermKeys language](https://img.shields.io/github/languages/top/BLCCoreStudio/TermKeys?style=for-the-badge&logo=linux&label=TermKeys&color=06B6D4)
+![RepoDoctor last commit](https://img.shields.io/github/last-commit/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=git&label=Latest%20Update&color=2563EB)
 
 </div>
 
