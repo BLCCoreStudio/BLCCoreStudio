@@ -16,6 +16,8 @@
 
 **BLC Core Studio** builds practical developer tools with an emphasis on **repository intelligence, terminal productivity, automation, safety, and polished user experience**.
 
+On GitHub, **BLCCoreStudio** is the home for these public projects, releases, and developer-facing documentation.
+
 The goal is simple: turn repetitive or complex engineering tasks into tools that feel clear, fast, and dependable.
 
 ```text
@@ -25,10 +27,6 @@ Analyze better  →  Fix smarter  →  Work faster  →  Ship with confidence
 ---
 
 ## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 ### 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)
 
@@ -40,8 +38,7 @@ Analyzes repository health across security, testing, documentation, CI/CD, depen
 
 [![RepoDoctor](https://img.shields.io/badge/Explore-RepoDoctor-7C3AED?style=for-the-badge&logo=github)](https://github.com/BLCCoreStudio/RepoDoctor)
 
-</td>
-<td width="50%" valign="top">
+<br>
 
 ### ⌨️ [TermKeys](https://github.com/BLCCoreStudio/TermKeys)
 
@@ -52,10 +49,6 @@ A lightweight Linux utility for installing useful keyboard shortcuts with backup
 `Linux` `Terminal` `Fish` `Nano` `Productivity`
 
 [![TermKeys](https://img.shields.io/badge/Explore-TermKeys-06B6D4?style=for-the-badge&logo=github)](https://github.com/BLCCoreStudio/TermKeys)
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -106,11 +99,10 @@ A lightweight Linux utility for installing useful keyboard shortcuts with backup
 ![RepoDoctor stars](https://img.shields.io/github/stars/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=github&label=RepoDoctor%20Stars&color=2563EB)
 ![TermKeys stars](https://img.shields.io/github/stars/BLCCoreStudio/TermKeys?style=for-the-badge&logo=github&label=TermKeys%20Stars&color=06B6D4)
 
-### 💻 Languages & Activity
+### 🔗 Project Access
 
-![RepoDoctor language](https://img.shields.io/github/languages/top/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=github&label=RepoDoctor&color=7C3AED)
-![TermKeys language](https://img.shields.io/github/languages/top/BLCCoreStudio/TermKeys?style=for-the-badge&logo=linux&label=TermKeys&color=06B6D4)
-![RepoDoctor last commit](https://img.shields.io/github/last-commit/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=git&label=Latest%20Update&color=2563EB)
+[![RepoDoctor Repository](https://img.shields.io/badge/RepoDoctor-Repository-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/BLCCoreStudio/RepoDoctor)
+[![TermKeys Repository](https://img.shields.io/badge/TermKeys-Repository-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/BLCCoreStudio/TermKeys)
 
 </div>
 
