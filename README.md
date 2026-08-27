@@ -20,10 +20,6 @@ On GitHub, **BLCCoreStudio** is the home for these public projects, releases, an
 
 The goal is simple: turn repetitive or complex engineering tasks into tools that feel clear, fast, and dependable.
 
-```text
-Analyze better  →  Fix smarter  →  Work faster  →  Ship with confidence
-```
-
 ---
 
 ## 🚀 Featured Projects
@@ -92,12 +88,6 @@ A lightweight Linux utility for installing useful keyboard shortcuts with backup
 ## 📊 GitHub Overview
 
 <div align="center">
-
-### 📈 Profile Stats
-
-![GitHub followers](https://img.shields.io/github/followers/BLCCoreStudio?style=for-the-badge&logo=github&label=Followers&color=7C3AED)
-![RepoDoctor stars](https://img.shields.io/github/stars/BLCCoreStudio/RepoDoctor?style=for-the-badge&logo=github&label=RepoDoctor%20Stars&color=2563EB)
-![TermKeys stars](https://img.shields.io/github/stars/BLCCoreStudio/TermKeys?style=for-the-badge&logo=github&label=TermKeys%20Stars&color=06B6D4)
 
 ### 🔗 Project Access
 
