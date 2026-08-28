@@ -38,11 +38,13 @@ A lightweight Linux utility for installing useful terminal-editor shortcuts with
 
 **Current release:** [v0.1.0](https://github.com/BLCCoreStudio/TermKeys/releases/tag/v0.1.0) · **Alpha / pre-release** · Linux x86_64
 
+> TermKeys is proprietary software. The public repository contains intentionally published documentation, configuration examples, contribution resources, and release material; public visibility does not make the complete implementation open source.
+
 ---
 
 ## Published CLI Utilities
 
-Focused Rust utilities for everyday developer and Linux workflows.
+Open-source, MIT-licensed Rust utilities for everyday developer and Linux workflows.
 
 | Project | What it does | Release |
 | --- | --- | --- |
