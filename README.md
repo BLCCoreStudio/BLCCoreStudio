@@ -52,7 +52,7 @@ These are the primary active development targets for safer, more reviewable AI-a
 | Primary project | Current development direction |
 | --- | --- |
 | 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Deterministic command policy, local prompt-risk scanning, and an optional Linux bubblewrap execution boundary |
-| 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Explicitly wrapped command history plus before/after Git change-evidence receipts and local receipt verification |
+| 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Wrapped command evidence, integrity-verifiable receipts, and read-only working-tree review hints |
 | 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local MCP configuration review, safe executable diagnostics, and configuration-baseline drift checks |
 | 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive project context before sharing content with AI tools |
 
@@ -62,23 +62,23 @@ The goal is not to label AI-generated work as universally “safe.” These tool
 
 ## Companion Research
 
-These repositories remain public intentionally. They are narrower experiments or review layers that feed the primary projects above while preserving their own history, links, tests, and focused implementation scope.
+These repositories remain public intentionally. They are narrower experiments or review layers that feed primary projects while preserving their own history, links, tests, and focused implementation scope.
 
 | Companion | Role | Primary integration target |
 | --- | --- | --- |
 | 🧰 [SafeWorkspace](https://github.com/BLCCoreStudio/SafeWorkspace) | Linux bubblewrap isolation research | [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) |
 | 🧱 [PromptShield](https://github.com/BLCCoreStudio/PromptShield) | Deterministic prompt-risk scanning research | [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) |
-| 🔍 [AgentDiff](https://github.com/BLCCoreStudio/AgentDiff) | Read-only diff-review experiments and risky-file hints | [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) |
+| 🔍 [AgentDiff](https://github.com/BLCCoreStudio/AgentDiff) | Read-only diff-review experiments | [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) |
 | 👁️ [MCPWatch](https://github.com/BLCCoreStudio/MCPWatch) | Local MCP configuration-baseline research | [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) |
+| 🔏 [ReleaseSeal](https://github.com/BLCCoreStudio/ReleaseSeal) | Deterministic SHA-256 release-manifest research | [HashCheck](https://github.com/BLCCoreStudio/HashCheck) |
 
 ---
 
-## Other Development Previews
+## Other Development Preview
 
-| Project | Current direction |
-| --- | --- |
-| 📦 [DepGuard](https://github.com/BLCCoreStudio/DepGuard) | Local dependency-manifest review for risky version and source patterns |
-| 🔏 [ReleaseSeal](https://github.com/BLCCoreStudio/ReleaseSeal) | Deterministic SHA-256 release-manifest creation and verification |
+### 📦 [DepGuard](https://github.com/BLCCoreStudio/DepGuard)
+
+Local dependency-manifest review for risky version and source patterns. Its overlap with RepoDoctor dependency intelligence is being evaluated before any integration so duplicate findings are not introduced blindly.
 
 Development-preview repositories should be evaluated from source, and their documented limitations should be treated as part of the product behavior.
 
@@ -101,7 +101,7 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 | 🔐 [EnvGuard](https://github.com/BLCCoreStudio/EnvGuard) | Detects secrets and sensitive files before they reach Git | [v0.1.0](https://github.com/BLCCoreStudio/EnvGuard/releases/tag/v0.1.0) |
 | 🔌 [PortPeek](https://github.com/BLCCoreStudio/PortPeek) | Finds the process using a TCP or UDP port on Linux | [v0.1.0](https://github.com/BLCCoreStudio/PortPeek/releases/tag/v0.1.0) |
 | 💾 [DiskHog](https://github.com/BLCCoreStudio/DiskHog) | Finds files and directories consuming the most disk space | [v0.1.0](https://github.com/BLCCoreStudio/DiskHog/releases/tag/v0.1.0) |
-| #️⃣ [HashCheck](https://github.com/BLCCoreStudio/HashCheck) | Calculates and verifies SHA-256 and SHA-512 checksums | [v0.1.0](https://github.com/BLCCoreStudio/HashCheck/releases/tag/v0.1.0) |
+| #️⃣ [HashCheck](https://github.com/BLCCoreStudio/HashCheck) | Calculates/verifies SHA-256/SHA-512 checksums; current development also adds deterministic SHA-256 release manifests | [v0.1.0](https://github.com/BLCCoreStudio/HashCheck/releases/tag/v0.1.0) |
 | ⏱️ [BuildTimer](https://github.com/BLCCoreStudio/BuildTimer) | Measures command durations and keeps local timing history | [v0.1.0](https://github.com/BLCCoreStudio/BuildTimer/releases/tag/v0.1.0) |
 | 🧹 [GitClean](https://github.com/BLCCoreStudio/GitClean) | Finds generated build/cache directories with dry-run and Git-aware safeguards | [v0.1.0](https://github.com/BLCCoreStudio/GitClean/releases/tag/v0.1.0) |
 | 🔔 [TaskBell](https://github.com/BLCCoreStudio/TaskBell) | Notifies you when long-running terminal commands finish | [v0.1.0](https://github.com/BLCCoreStudio/TaskBell/releases/tag/v0.1.0) |
