@@ -84,6 +84,14 @@ Development-preview repositories should be evaluated from source, and their docu
 
 ---
 
+## Incubation
+
+New ideas are not automatically turned into public repositories. They graduate only after the product boundary, fixtures, and minimum implementation are strong enough to justify a standalone project.
+
+- 🐤 **AgentCanary** — proposed security-contract test harness for coding agents. The design is currently being developed in [`incubator/AGENTCANARY.md`](./incubator/AGENTCANARY.md) before any standalone repository is created.
+
+---
+
 ## Published CLI Utilities
 
 Open-source, MIT-licensed Rust utilities for everyday developer and Linux workflows.
