@@ -53,7 +53,7 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 | 💾 [DiskHog](https://github.com/BLCCoreStudio/DiskHog) | Finds files and directories consuming the most disk space | [v0.1.0](https://github.com/BLCCoreStudio/DiskHog/releases/tag/v0.1.0) |
 | #️⃣ [HashCheck](https://github.com/BLCCoreStudio/HashCheck) | Calculates and verifies SHA-256 and SHA-512 checksums | [v0.1.0](https://github.com/BLCCoreStudio/HashCheck/releases/tag/v0.1.0) |
 | ⏱️ [BuildTimer](https://github.com/BLCCoreStudio/BuildTimer) | Measures command durations and keeps local timing history | [v0.1.0](https://github.com/BLCCoreStudio/BuildTimer/releases/tag/v0.1.0) |
-| 🧹 [GitClean](https://github.com/BLCCoreStudio/GitClean) | Finds and cleans generated build and cache directories safely | [v0.1.0](https://github.com/BLCCoreStudio/GitClean/releases/tag/v0.1.0) |
+| 🧹 [GitClean](https://github.com/BLCCoreStudio/GitClean) | Finds generated build/cache directories with dry-run and Git-aware safeguards | [v0.1.0](https://github.com/BLCCoreStudio/GitClean/releases/tag/v0.1.0) |
 | 🔔 [TaskBell](https://github.com/BLCCoreStudio/TaskBell) | Notifies you when long-running terminal commands finish | [v0.1.0](https://github.com/BLCCoreStudio/TaskBell/releases/tag/v0.1.0) |
 
 ---
@@ -84,7 +84,7 @@ Development-preview repositories should be evaluated from source and their docum
 - **Clear failure behavior** — errors should explain what happened and what to do next.
 - **Conservative defaults** — destructive or security-sensitive actions should be explicit.
 - **Small tools, defined scope** — solve one workflow problem well.
-- **Reproducible releases** — publish versioned artifacts and verification material where applicable.
+- **Verifiable releases** — publish versioned artifacts and checksum material where applicable.
 - **Linux-first usability** — predictable CLI behavior and straightforward installation.
 
 ---
