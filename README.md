@@ -6,7 +6,7 @@
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 ![Rust](https://img.shields.io/badge/Primary%20CLI-Rust-7C3AED?style=for-the-badge&logo=rust&logoColor=white)
 
-### Practical developer tools for repositories, terminals, and safer automation.
+### Practical developer tools for repositories, Linux workflows, and safer AI-assisted development.
 
 </div>
 
@@ -14,11 +14,14 @@
 
 ## About
 
-**BLC Core Studio** builds focused developer tools around repository diagnostics, Linux workflows, terminal productivity, automation, and software safety.
+**BLC Core Studio** builds focused developer tools around repository diagnostics, Linux workflows, terminal productivity, local-first automation, and software safety.
 
-The projects here are intentionally narrow in scope: each tool is designed to solve a specific workflow problem clearly and predictably rather than becoming a large all-in-one suite.
+The current project family has two clear tracks:
 
-Published releases and development previews are separated below so project maturity is clear at a glance.
+- **released developer utilities** — small tools with versioned public releases
+- **active trust tooling for AI-assisted development** — early-stage Rust projects with conservative, explainable behavior and explicit limitations
+
+Focused companion repositories preserve smaller experiments and implementation history. When an experiment becomes part of a broader product, active integration moves into the primary project instead of deleting or republishing the original repository.
 
 ---
 
@@ -42,6 +45,45 @@ A lightweight Linux utility for installing useful terminal-editor shortcuts with
 
 ---
 
+## AI Agent Trust Tooling
+
+These are the primary active development targets for safer, more reviewable AI-assisted development. They contain working implementations but **do not have stable public releases yet**.
+
+| Primary project | Current development direction |
+| --- | --- |
+| 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Deterministic command policy, local prompt-risk scanning, and an optional Linux bubblewrap execution boundary |
+| 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Explicitly wrapped command history plus before/after Git change-evidence receipts and local receipt verification |
+| 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local MCP configuration review, safe executable diagnostics, and configuration-baseline drift checks |
+| 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive project context before sharing content with AI tools |
+
+The goal is not to label AI-generated work as universally “safe.” These tools are designed to make risky actions easier to constrain, changes easier to review, and local configuration/evidence easier to inspect.
+
+---
+
+## Companion Research
+
+These repositories remain public intentionally. They are narrower experiments or review layers that feed the primary projects above while preserving their own history, links, tests, and focused implementation scope.
+
+| Companion | Role | Primary integration target |
+| --- | --- | --- |
+| 🧰 [SafeWorkspace](https://github.com/BLCCoreStudio/SafeWorkspace) | Linux bubblewrap isolation research | [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) |
+| 🧱 [PromptShield](https://github.com/BLCCoreStudio/PromptShield) | Deterministic prompt-risk scanning research | [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) |
+| 🔍 [AgentDiff](https://github.com/BLCCoreStudio/AgentDiff) | Read-only diff-review experiments and risky-file hints | [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) |
+| 👁️ [MCPWatch](https://github.com/BLCCoreStudio/MCPWatch) | Local MCP configuration-baseline research | [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) |
+
+---
+
+## Other Development Previews
+
+| Project | Current direction |
+| --- | --- |
+| 📦 [DepGuard](https://github.com/BLCCoreStudio/DepGuard) | Local dependency-manifest review for risky version and source patterns |
+| 🔏 [ReleaseSeal](https://github.com/BLCCoreStudio/ReleaseSeal) | Deterministic SHA-256 release-manifest creation and verification |
+
+Development-preview repositories should be evaluated from source, and their documented limitations should be treated as part of the product behavior.
+
+---
+
 ## Published CLI Utilities
 
 Open-source, MIT-licensed Rust utilities for everyday developer and Linux workflows.
@@ -58,32 +100,13 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 
 ---
 
-## Development Previews
-
-These repositories contain working early-stage implementations, but **do not have stable public releases yet**.
-
-| Project | Current direction |
-| --- | --- |
-| 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Deterministic checks for risky shell commands before execution |
-| 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local security-oriented review of MCP configuration files |
-| 📦 [DepGuard](https://github.com/BLCCoreStudio/DepGuard) | Local dependency-manifest review for risky version/source patterns |
-| 🧱 [PromptShield](https://github.com/BLCCoreStudio/PromptShield) | Local prompt-injection signal scanning for text files |
-| 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Local audit history for explicitly wrapped development commands |
-| 🧰 [SafeWorkspace](https://github.com/BLCCoreStudio/SafeWorkspace) | Linux bubblewrap-based restricted workspaces for commands |
-| 🔏 [ReleaseSeal](https://github.com/BLCCoreStudio/ReleaseSeal) | Deterministic SHA-256 release manifest creation and verification |
-| 🔍 [AgentDiff](https://github.com/BLCCoreStudio/AgentDiff) | Read-only review of working-tree changes after AI-assisted work |
-| 👁️ [MCPWatch](https://github.com/BLCCoreStudio/MCPWatch) | Local baseline monitoring for MCP configuration changes |
-| 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive context before sharing |
-
-Development-preview repositories should be evaluated from source and their documented limitations should be treated as part of the product behavior.
-
----
-
 ## Engineering Priorities
 
 - **Clear failure behavior** — errors should explain what happened and what to do next.
 - **Conservative defaults** — destructive or security-sensitive actions should be explicit.
-- **Small tools, defined scope** — solve one workflow problem well.
+- **Local-first where practical** — avoid unnecessary uploads, accounts, and telemetry.
+- **Explainable safety controls** — findings should be review signals with documented scope, not unsupported guarantees.
+- **Small tools, defined scope** — solve one workflow problem well, then integrate only where the product boundary becomes clearer.
 - **Verifiable releases** — publish versioned artifacts and checksum material where applicable.
 - **Linux-first usability** — predictable CLI behavior and straightforward installation.
 
