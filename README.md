@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7C3AED,45:2563EB,100:06B6D4&text=BLC%20Core%20Studio&fontColor=FFFFFF&fontSize=46&fontAlignY=38&desc=Developer%20Tools%20%E2%80%A2%20Linux%20Utilities%20%E2%80%A2%20Repository%20Intelligence&descAlignY=58&descSize=16&animation=fadeIn" alt="BLC Core Studio" />
+<img width="100%" src="./assets/banner.svg" alt="BLC Core Studio — Developer Tools, Linux Utilities, Repository Intelligence" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-BLCCoreStudio-181717?style=for-the-badge&logo=github)](https://github.com/BLCCoreStudio)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
@@ -119,7 +119,5 @@ Development-preview repositories should be evaluated from source and their docum
 ### Build useful things. Keep them clear. Make them reliable.
 
 [![View Repositories](https://img.shields.io/badge/View%20Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BLCCoreStudio?tab=repositories)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:06B6D4,50:2563EB,100:7C3AED" alt="footer" />
 
 </div>
