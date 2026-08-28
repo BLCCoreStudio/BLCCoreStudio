@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">BLC Core Studio</title>
+  <desc id="desc">Developer Tools, Linux Utilities, Repository Intelligence</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="45%" stop-color="#172554"/>
+      <stop offset="75%" stop-color="#312E81"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.2" r="0.75">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#glow)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <g transform="translate(88 74)">
+    <rect x="0" y="0" width="8" height="118" rx="4" fill="#22D3EE"/>
+    <text x="34" y="64" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="0.5">BLC Core Studio</text>
+    <text x="36" y="108" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing="1.2">DEVELOPER TOOLS  •  LINUX UTILITIES  •  REPOSITORY INTELLIGENCE</text>
+  </g>
+  <g transform="translate(930 78)" opacity="0.9">
+    <rect x="0" y="0" width="170" height="144" rx="22" fill="#020617" fill-opacity="0.44" stroke="#67E8F9" stroke-opacity="0.35"/>
+    <path d="M38 47h94M38 72h68M38 97h82" stroke="#A5F3FC" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="126" cy="97" r="10" fill="#22D3EE"/>
+  </g>
+</svg>
