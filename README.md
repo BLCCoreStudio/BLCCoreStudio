@@ -123,6 +123,7 @@ Each project repository is the source of truth for installation, usage, current 
 - Browse all repositories: [github.com/BLCCoreStudio?tab=repositories](https://github.com/BLCCoreStudio?tab=repositories)
 - Download published builds from each project's **Releases** page
 - Report bugs through the relevant repository's **Issues** page
+- Propose improvements through focused pull requests and follow each repository's `CONTRIBUTING.md` and CI requirements where available
 - Follow each repository's `SECURITY.md` for vulnerability reports rather than public issue threads
 
 ---
