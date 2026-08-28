@@ -18,7 +18,7 @@
 
 The projects here are intentionally narrow in scope: each tool is designed to solve a specific workflow problem clearly and predictably rather than becoming a large all-in-one suite.
 
-Only projects with a usable public implementation or published release are featured below. Release maturity is stated explicitly.
+Published releases and development previews are separated below so project maturity is clear at a glance.
 
 ---
 
@@ -53,6 +53,27 @@ Focused Rust utilities for everyday developer and Linux workflows.
 | ⏱️ [BuildTimer](https://github.com/BLCCoreStudio/BuildTimer) | Measures command durations and keeps local timing history | [v0.1.0](https://github.com/BLCCoreStudio/BuildTimer/releases/tag/v0.1.0) |
 | 🧹 [GitClean](https://github.com/BLCCoreStudio/GitClean) | Finds and cleans generated build and cache directories safely | [v0.1.0](https://github.com/BLCCoreStudio/GitClean/releases/tag/v0.1.0) |
 | 🔔 [TaskBell](https://github.com/BLCCoreStudio/TaskBell) | Notifies you when long-running terminal commands finish | [v0.1.0](https://github.com/BLCCoreStudio/TaskBell/releases/tag/v0.1.0) |
+
+---
+
+## Development Previews
+
+These repositories contain working early-stage implementations, but **do not have stable public releases yet**.
+
+| Project | Current direction |
+| --- | --- |
+| 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Deterministic checks for risky shell commands before execution |
+| 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local security-oriented review of MCP configuration files |
+| 📦 [DepGuard](https://github.com/BLCCoreStudio/DepGuard) | Local dependency-manifest review for risky version/source patterns |
+| 🧱 [PromptShield](https://github.com/BLCCoreStudio/PromptShield) | Local prompt-injection signal scanning for text files |
+| 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Local audit history for explicitly wrapped development commands |
+| 🧰 [SafeWorkspace](https://github.com/BLCCoreStudio/SafeWorkspace) | Linux bubblewrap-based restricted workspaces for commands |
+| 🔏 [ReleaseSeal](https://github.com/BLCCoreStudio/ReleaseSeal) | Deterministic SHA-256 release manifest creation and verification |
+| 🔍 [AgentDiff](https://github.com/BLCCoreStudio/AgentDiff) | Read-only review of working-tree changes after AI-assisted work |
+| 👁️ [MCPWatch](https://github.com/BLCCoreStudio/MCPWatch) | Local baseline monitoring for MCP configuration changes |
+| 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive context before sharing |
+
+Development-preview repositories should be evaluated from source and their documented limitations should be treated as part of the product behavior.
 
 ---
 
