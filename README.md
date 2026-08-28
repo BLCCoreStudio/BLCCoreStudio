@@ -3,6 +3,7 @@
 <img width="100%" src="./assets/banner.svg" alt="BLC Core Studio — Developer Tools, Linux Utilities, Repository Intelligence" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-BLCCoreStudio-181717?style=for-the-badge&logo=github)](https://github.com/BLCCoreStudio)
+[![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 ![Rust](https://img.shields.io/badge/Primary%20CLI-Rust-7C3AED?style=for-the-badge&logo=rust&logoColor=white)
 
@@ -27,13 +28,17 @@ Focused companion repositories preserve smaller experiments and implementation h
 
 ## Featured Projects
 
-### 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)
+### 🩺 [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
 
-Repository diagnostics for security, testing, documentation, CI/CD, dependencies, configuration, structure, and architecture.
+Repository health scoring and CI quality gates across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture.
 
-**Current release:** [v0.1.1](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.1) · **Alpha / pre-release** · Linux x86_64
+**Marketplace Action:** [v0.1.3](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.3) · **Engine:** [v0.1.1](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.1) · **Alpha** · Linux x86_64
 
-> RepoDoctor's complete implementation is proprietary and maintained privately. The public repository provides documentation and verified release artifacts.
+[![View on GitHub Marketplace](https://img.shields.io/badge/View%20on-GitHub%20Marketplace-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
+
+Use it in GitHub Actions with `BLCCoreStudio/RepoDoctor@v0.1.3`. The documented workflow works with read-only repository permissions and does not require a RepoDoctor account or API key.
+
+> RepoDoctor's complete analysis engine is proprietary and maintained privately. The public repository provides the Marketplace Action wrapper, documentation, verified releases, checksums, and product preview material.
 
 ### ⌨️ [TermKeys](https://github.com/BLCCoreStudio/TermKeys)
 
@@ -138,6 +143,7 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 
 ## Explore
 
+- [RepoDoctor CI on GitHub Marketplace](https://github.com/marketplace/actions/repodoctor-ci)
 - [All public repositories](https://github.com/BLCCoreStudio?tab=repositories)
 - Use each repository's **Issues** page for bug reports and focused feature requests.
 - Follow the repository's `SECURITY.md` for vulnerability reporting when available.
@@ -149,6 +155,7 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 
 ### Build useful things. Keep them clear. Make them reliable.
 
+[![Try RepoDoctor CI](https://img.shields.io/badge/Try-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 [![View Repositories](https://img.shields.io/badge/View%20Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BLCCoreStudio?tab=repositories)
 
 </div>
