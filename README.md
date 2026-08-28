@@ -85,16 +85,22 @@ A lightweight Linux utility for installing useful keyboard shortcuts with backup
 
 ---
 
-## 📊 GitHub Overview
+## 🤝 Try, Report, Contribute
+
+Both public projects include release notes, security guidance, contribution documentation, and issue trackers so visitors have a clear next step after discovering the profile.
 
 <div align="center">
 
-### 🔗 Project Access
-
-[![RepoDoctor Repository](https://img.shields.io/badge/RepoDoctor-Repository-7C3AED?style=flat-square&logo=github&logoColor=white)](https://github.com/BLCCoreStudio/RepoDoctor)
-[![TermKeys Repository](https://img.shields.io/badge/TermKeys-Repository-06B6D4?style=flat-square&logo=github&logoColor=white)](https://github.com/BLCCoreStudio/TermKeys)
+[![RepoDoctor Release](https://img.shields.io/badge/Try-RepoDoctor%20v0.1.0-7C3AED?style=flat-square&logo=github)](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.0)
+[![RepoDoctor Issues](https://img.shields.io/badge/Report-RepoDoctor%20Issue-475569?style=flat-square&logo=github)](https://github.com/BLCCoreStudio/RepoDoctor/issues)
+[![TermKeys Release](https://img.shields.io/badge/Try-TermKeys%20v0.1.0-06B6D4?style=flat-square&logo=github)](https://github.com/BLCCoreStudio/TermKeys/releases/tag/v0.1.0)
+[![TermKeys Issues](https://img.shields.io/badge/Report-TermKeys%20Issue-475569?style=flat-square&logo=github)](https://github.com/BLCCoreStudio/TermKeys/issues)
 
 </div>
+
+- RepoDoctor contributions: [CONTRIBUTING.md](https://github.com/BLCCoreStudio/RepoDoctor/blob/main/CONTRIBUTING.md)
+- TermKeys contributions: [CONTRIBUTING.md](https://github.com/BLCCoreStudio/TermKeys/blob/main/CONTRIBUTING.md)
+- Security reports should follow each repository's `SECURITY.md` guidance rather than public issue threads.
 
 ---
 
