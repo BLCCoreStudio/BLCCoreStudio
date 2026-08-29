@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">BLC Core Studio</title>
-  <desc id="desc">Developer Tools, Linux Utilities, Repository Intelligence</desc>
+  <title id="title">BLCCoreStudio</title>
+  <desc id="desc">Independent developer tools, Linux utilities, and repository intelligence</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0B1020"/>
@@ -21,8 +21,8 @@
   <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
   <g transform="translate(88 74)">
     <rect x="0" y="0" width="8" height="118" rx="4" fill="#22D3EE"/>
-    <text x="34" y="64" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="0.5">BLC Core Studio</text>
-    <text x="36" y="108" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing="1.2">DEVELOPER TOOLS  •  LINUX UTILITIES  •  REPOSITORY INTELLIGENCE</text>
+    <text x="34" y="64" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="0.5">BLCCoreStudio</text>
+    <text x="36" y="108" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing="1.2">INDEPENDENT DEVELOPER TOOLS  •  LINUX  •  REPOSITORY INTELLIGENCE</text>
   </g>
   <g transform="translate(930 78)" opacity="0.9">
     <rect x="0" y="0" width="170" height="144" rx="22" fill="#020617" fill-opacity="0.44" stroke="#67E8F9" stroke-opacity="0.35"/>
