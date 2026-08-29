@@ -29,8 +29,9 @@ Map which repository instructions can affect Codex, Claude Code, Gemini CLI, Git
 **Current release:** [v0.1.0-alpha.2](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.1.0-alpha.2) · **Early alpha** · Rust · MIT · Linux x86_64
 
 [![Explore AgentContextMap](https://img.shields.io/badge/Explore-AgentContextMap-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
+[![Use in GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Early%20Alpha-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap#github-actions--early-alpha-integration)
 
-AgentContextMap is local and read-only. It does not execute repository instructions, call an LLM, or send repository content to a remote service. The current release includes JSON output and a self-contained interactive HTML report.
+AgentContextMap is local and read-only. It does not execute repository instructions, call an LLM, or send repository content to a remote service. The current development line also includes a composite GitHub Action for report-only CI inspection and optional high-confidence conflict gating; the published standalone binary remains v0.1.0-alpha.2.
 
 ### [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
 
