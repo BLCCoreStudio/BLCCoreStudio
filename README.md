@@ -22,6 +22,16 @@ The portfolio has two main tracks: released developer utilities and early-stage 
 
 ## Featured Projects
 
+### [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)
+
+Map which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline — including activation state, path scope, obvious conflicts, and approximate context size.
+
+**Current release:** [v0.1.0-alpha.2](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.1.0-alpha.2) · **Early alpha** · Rust · MIT · Linux x86_64
+
+[![Explore AgentContextMap](https://img.shields.io/badge/Explore-AgentContextMap-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
+
+AgentContextMap is local and read-only. It does not execute repository instructions, call an LLM, or send repository content to a remote service. The current release includes JSON output and a self-contained interactive HTML report.
+
 ### [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
 
 Repository health scoring and CI quality gates across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture.
@@ -87,6 +97,7 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 
 ## Explore
 
+- [AgentContextMap — coding-agent instruction mapping](https://github.com/BLCCoreStudio/AgentContextMap)
 - [RepoDoctor CI on GitHub Marketplace](https://github.com/marketplace/actions/repodoctor-ci)
 - [All public repositories](https://github.com/BLCCoreStudio?tab=repositories)
 - Use each repository's **Issues** page for bug reports and focused feature requests.
@@ -98,7 +109,7 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 
 ### Build useful things. Keep them clear. Make them reliable.
 
+[![Explore AgentContextMap](https://img.shields.io/badge/Explore-AgentContextMap-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
 [![Try RepoDoctor CI](https://img.shields.io/badge/Try-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
-[![View Repositories](https://img.shields.io/badge/View%20Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BLCCoreStudio?tab=repositories)
 
 </div>
