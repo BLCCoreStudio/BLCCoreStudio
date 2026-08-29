@@ -1,8 +1,7 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="BLC Core Studio — Developer Tools, Linux Utilities, Repository Intelligence" />
+<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — Independent developer tools, Linux utilities, and repository intelligence" />
 
-[![GitHub](https://img.shields.io/badge/GitHub-BLCCoreStudio-181717?style=for-the-badge&logo=github)](https://github.com/BLCCoreStudio)
 [![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 ![Rust](https://img.shields.io/badge/Primary%20CLI-Rust-7C3AED?style=for-the-badge&logo=rust&logoColor=white)
@@ -15,7 +14,7 @@
 
 ## About
 
-**BLC Core Studio** builds focused developer tools around repository diagnostics, Linux workflows, terminal productivity, local-first automation, and software safety.
+**BLCCoreStudio** is an independent developer project namespace for focused tools around repository diagnostics, Linux workflows, terminal productivity, local-first automation, and software safety.
 
 The portfolio has two main tracks: released developer utilities and early-stage trust tooling for AI-assisted development. Projects are kept intentionally scoped, with explicit limitations and conservative behavior where safety matters.
 
@@ -56,7 +55,7 @@ Primary active development targets for safer, more reviewable AI-assisted develo
 | 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local MCP configuration review, executable diagnostics, and baseline drift checks |
 | 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive project context before sharing content with AI tools |
 
-Focused companion repositories such as [SafeWorkspace](https://github.com/BLCCoreStudio/SafeWorkspace), [PromptShield](https://github.com/BLCCoreStudio/PromptShield), [AgentDiff](https://github.com/BLCCoreStudio/AgentDiff), [MCPWatch](https://github.com/BLCCoreStudio/MCPWatch), [ReleaseSeal](https://github.com/BLCCoreStudio/ReleaseSeal), and [DepGuard](https://github.com/BLCCoreStudio/DepGuard) preserve narrower experiments and implementation history.
+Earlier focused experiments have been consolidated into these active targets where their useful behavior now belongs.
 
 ---
 
@@ -83,22 +82,6 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 - **Local-first where practical** to avoid unnecessary uploads, accounts, or telemetry.
 - **Verifiable releases** with versioned artifacts and checksum material where applicable.
 - **Linux-first usability** with predictable CLI behavior and straightforward installation.
-
----
-
-## Technology
-
-<div align="center">
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Cargo](https://img.shields.io/badge/Cargo-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-</div>
 
 ---
 
