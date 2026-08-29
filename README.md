@@ -23,7 +23,7 @@ The portfolio has two main tracks: released developer utilities and early-stage 
 
 ## Featured Projects
 
-### 🩺 [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
+### [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
 
 Repository health scoring and CI quality gates across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture.
 
@@ -35,7 +35,7 @@ Use it in GitHub Actions with `BLCCoreStudio/RepoDoctor@v0.1.3`. The documented 
 
 > RepoDoctor's complete analysis engine is proprietary. The public repository provides the Marketplace Action wrapper, documentation, verified releases, checksums, and product preview material.
 
-### ⌨️ [TermKeys](https://github.com/BLCCoreStudio/TermKeys)
+### [TermKeys](https://github.com/BLCCoreStudio/TermKeys)
 
 A lightweight Linux utility for installing useful terminal-editor shortcuts with backups, conflict detection, diagnostics, restore, and uninstall support.
 
