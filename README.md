@@ -26,12 +26,12 @@ The portfolio has two main tracks: released developer utilities and early-stage 
 
 Map which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline — including activation state, path scope, obvious conflicts, and approximate context size.
 
-**Current release:** [v0.1.0-alpha.2](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.1.0-alpha.2) · **Early alpha** · Rust · MIT · Linux x86_64
+**Current release:** [v0.2.0](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.2.0) · **Stable** · Rust · MIT · Linux x86_64
 
 [![Explore AgentContextMap](https://img.shields.io/badge/Explore-AgentContextMap-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
-[![Use in GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Early%20Alpha-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap#github-actions--early-alpha-integration)
+[![Use in GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-v0.2.0-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap#github-actions)
 
-AgentContextMap is local and read-only. It does not execute repository instructions, call an LLM, or send repository content to a remote service. The current development line also includes a composite GitHub Action for report-only CI inspection and optional high-confidence conflict gating; the published standalone binary remains v0.1.0-alpha.2.
+AgentContextMap is local and read-only. It does not execute repository instructions, call an LLM, or send repository content to a remote service. The stable v0.2.0 release includes a composite GitHub Action, SARIF 2.1.0 output, explicit GitHub Code Scanning integration, and a self-contained interactive HTML report.
 
 ### [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
 
@@ -52,6 +52,16 @@ A lightweight Linux utility for installing useful terminal-editor shortcuts with
 **Current release:** [v0.1.0](https://github.com/BLCCoreStudio/TermKeys/releases/tag/v0.1.0) · **Alpha / pre-release** · Linux x86_64
 
 > TermKeys is proprietary software. Its public repository contains intentionally published documentation, configuration examples, contribution resources, and release material.
+
+---
+
+## Open Source Contributions
+
+Recent upstream work focuses on small, test-backed fixes in established open-source projects.
+
+- **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) fixes decode-warning finalization across all drain exit paths; [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) stabilizes the Go 1.27 `json.RawMessage` contract. **Both merged upstream.**
+- **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) fixes generated C# model descriptions when no public derived models exist. **Open / under review.**
+- **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) adds `SOCK_CLOEXEC` to Linux datapath socket creation. **Open / under review.**
 
 ---
 
