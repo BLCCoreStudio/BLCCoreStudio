@@ -2,87 +2,69 @@
 
 <img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — Independent developer tools, Linux utilities, and repository intelligence" />
 
+[![AgentContextMap](https://img.shields.io/badge/AgentContextMap-v0.2.0-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
 [![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
-![Rust](https://img.shields.io/badge/Primary%20CLI-Rust-7C3AED?style=for-the-badge&logo=rust&logoColor=white)
 
-### Practical developer tools for repositories, Linux workflows, and safer AI-assisted development.
+### Developer tools for repositories, Linux workflows, and safer AI-assisted development.
+
+[**Start with AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
 
 </div>
 
 ---
 
-## About
+## Start here — AgentContextMap
 
-**BLCCoreStudio** is an independent developer project namespace for focused tools around repository diagnostics, Linux workflows, terminal productivity, local-first automation, and software safety.
+**[AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)** maps which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline.
 
-The portfolio has two main tracks: released developer utilities and early-stage trust tooling for AI-assisted development. Projects are kept intentionally scoped, with explicit limitations and conservative behavior where safety matters.
+It is **local, read-only, and deterministic**: no LLM calls, no repository uploads, and no execution of repository instructions. The stable **v0.2.0** release includes a GitHub Action, SARIF 2.1.0 output for Code Scanning, conflict detection, target-path analysis, and a self-contained HTML report.
 
----
+```yaml
+- uses: BLCCoreStudio/AgentContextMap@v0.2.0
+  with:
+    path: .
+```
 
-## Featured Projects
-
-### [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)
-
-Map which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline — including activation state, path scope, obvious conflicts, and approximate context size.
-
-**Current release:** [v0.2.0](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.2.0) · **Stable** · Rust · MIT · Linux x86_64
-
-[![Explore AgentContextMap](https://img.shields.io/badge/Explore-AgentContextMap-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
-[![Use in GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-v0.2.0-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap#github-actions)
-
-AgentContextMap is local and read-only. It does not execute repository instructions, call an LLM, or send repository content to a remote service. The stable v0.2.0 release includes a composite GitHub Action, SARIF 2.1.0 output, explicit GitHub Code Scanning integration, and a self-contained interactive HTML report.
-
-### [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor)
-
-Repository health scoring and CI quality gates across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture.
-
-**Marketplace Action:** [v0.1.3](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.3) · **Engine:** [v0.1.1](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.1) · **Alpha** · Linux x86_64
-
-[![View on GitHub Marketplace](https://img.shields.io/badge/View%20on-GitHub%20Marketplace-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
-
-Use it in GitHub Actions with `BLCCoreStudio/RepoDoctor@v0.1.3`. The documented workflow uses read-only repository permissions and requires no RepoDoctor account or API key.
-
-> RepoDoctor's complete analysis engine is proprietary. The public repository provides the Marketplace Action wrapper, documentation, verified releases, checksums, and product preview material.
-
-### [TermKeys](https://github.com/BLCCoreStudio/TermKeys)
-
-A lightweight Linux utility for installing useful terminal-editor shortcuts with backups, conflict detection, diagnostics, restore, and uninstall support.
-
-**Current release:** [v0.1.0](https://github.com/BLCCoreStudio/TermKeys/releases/tag/v0.1.0) · **Alpha / pre-release** · Linux x86_64
-
-> TermKeys is proprietary software. Its public repository contains intentionally published documentation, configuration examples, contribution resources, and release material.
+[Explore the project](https://github.com/BLCCoreStudio/AgentContextMap) · [Use it in GitHub Actions](https://github.com/BLCCoreStudio/AgentContextMap#github-actions) · [Download v0.2.0](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.2.0)
 
 ---
 
-## Open Source Contributions
+## Upstream open-source work
 
-Recent upstream work focuses on small, test-backed fixes in established open-source projects.
+Recent contributions focus on small, test-backed fixes in established projects.
 
-- **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) fixes decode-warning finalization across all drain exit paths; [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) stabilizes the Go 1.27 `json.RawMessage` contract. **Both merged upstream.**
-- **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) fixes generated C# model descriptions when no public derived models exist. **Open / under review.**
-- **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) adds `SOCK_CLOEXEC` to Linux datapath socket creation. **Open / under review.**
+- **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) and [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) — **both merged upstream**.
+- **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) — generated C# model-description fix; **open / under review**.
+- **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) — Linux `SOCK_CLOEXEC` datapath fix; **open / under review**.
 
 ---
 
-## AI Agent Trust Tooling
+## Flagship projects
 
-Primary active development targets for safer, more reviewable AI-assisted development:
+| Project | Focus | Status |
+| --- | --- | --- |
+| 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.0** · Rust · MIT |
+| 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health scoring and CI quality gates | **Marketplace Action v0.1.3** · Alpha |
+| 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Command policy, prompt-risk scanning, and optional Linux isolation | **Development preview** · Rust · MIT |
+
+**BLCCoreStudio** is an independent developer project namespace. The main focus is practical repository tooling, Linux-first utilities, local-first automation, and explainable safety controls for AI-assisted development.
+
+---
+
+## AI agent trust tooling
 
 | Project | Focus |
 | --- | --- |
-| 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Deterministic command policy, local prompt-risk scanning, and optional Linux execution isolation |
 | 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Wrapped command evidence, integrity-verifiable receipts, and read-only working-tree review hints |
 | 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local MCP configuration review, executable diagnostics, and baseline drift checks |
-| 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive project context before sharing content with AI tools |
+| 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive project context before sharing with AI tools |
 
-Earlier focused experiments have been consolidated into these active targets where their useful behavior now belongs.
+Earlier focused experiments are being consolidated into these primary projects instead of expanding the portfolio with overlapping tools.
 
 ---
 
-## Published CLI Utilities
-
-Open-source, MIT-licensed Rust utilities for everyday developer and Linux workflows.
+## Released Linux utilities
 
 | Project | What it does | Release |
 | --- | --- | --- |
@@ -94,27 +76,16 @@ Open-source, MIT-licensed Rust utilities for everyday developer and Linux workfl
 | 🧹 [GitClean](https://github.com/BLCCoreStudio/GitClean) | Finds generated build/cache directories with dry-run and Git-aware safeguards | [v0.1.0](https://github.com/BLCCoreStudio/GitClean/releases/tag/v0.1.0) |
 | 🔔 [TaskBell](https://github.com/BLCCoreStudio/TaskBell) | Notifies you when long-running terminal commands finish | [v0.1.0](https://github.com/BLCCoreStudio/TaskBell/releases/tag/v0.1.0) |
 
+**[TermKeys](https://github.com/BLCCoreStudio/TermKeys)** is a separate proprietary Linux terminal-shortcut utility with a public release and documentation surface.
+
 ---
 
-## Engineering Priorities
+## Engineering approach
 
-- **Conservative defaults** for destructive or security-sensitive actions.
-- **Clear failure behavior** with actionable errors and documented limitations.
-- **Local-first where practical** to avoid unnecessary uploads, accounts, or telemetry.
+- **Local-first** where practical; avoid unnecessary accounts, uploads, and telemetry.
+- **Conservative defaults** around destructive or security-sensitive behavior.
+- **Explicit limitations** instead of overstating what a tool can prove.
 - **Verifiable releases** with versioned artifacts and checksum material where applicable.
-- **Linux-first usability** with predictable CLI behavior and straightforward installation.
-
----
-
-## Explore
-
-- [AgentContextMap — coding-agent instruction mapping](https://github.com/BLCCoreStudio/AgentContextMap)
-- [RepoDoctor CI on GitHub Marketplace](https://github.com/marketplace/actions/repodoctor-ci)
-- [All public repositories](https://github.com/BLCCoreStudio?tab=repositories)
-- Use each repository's **Issues** page for bug reports and focused feature requests.
-- Follow the repository's `SECURITY.md` for vulnerability reporting when available.
-
----
 
 <div align="center">
 
