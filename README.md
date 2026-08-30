@@ -8,13 +8,15 @@
 
 ### Developer tools for repositories, Linux workflows, and safer AI-assisted development.
 
-[**Start with AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
+[**Explore AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
 
 </div>
 
 ---
 
-## Start here — AgentContextMap
+## Start here — two flagship tools
+
+### 🧭 AgentContextMap
 
 **[AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)** maps which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline.
 
@@ -27,6 +29,18 @@ It is **local, read-only, and deterministic**: no LLM calls, no repository uploa
 ```
 
 [Explore the project](https://github.com/BLCCoreStudio/AgentContextMap) · [Use it in GitHub Actions](https://github.com/BLCCoreStudio/AgentContextMap#github-actions) · [Download v0.2.0](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.2.0)
+
+### 🩺 RepoDoctor CI
+
+**[RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)** scores repository health across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture — with optional CI quality gates.
+
+The published **GitHub Marketplace Action v0.1.3** starts in report-only mode and can later enforce a minimum score or finding severity. The documented workflow requires only read access to repository contents.
+
+```yaml
+- uses: BLCCoreStudio/RepoDoctor@v0.1.3
+```
+
+[Explore RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) · [View on GitHub Marketplace](https://github.com/marketplace/actions/repodoctor-ci) · [Download the Linux CLI](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.1)
 
 ---
 
