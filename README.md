@@ -6,7 +6,7 @@
 [![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 
-### Independent developer work focused on repository tooling, Linux workflows, CI/CD, and safer AI-assisted development.
+### Independent software projects focused on developer tooling, local-first AI workflows, Android, CI/CD, and practical automation.
 
 [**Explore AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
 
@@ -14,20 +14,38 @@
 
 ---
 
+## Selected work
+
+| Project | Focus | Status |
+| --- | --- | --- |
+| 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.3** · Rust · GitHub Action |
+| 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health analysis and configurable CI quality gates | **Marketplace Action v0.1.3** · Alpha |
+| 🇹🇷 [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop evaluation for Turkish AI text and audio quality | **Active development** · Python · tested workbench/E2E |
+| 🗺️ [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex) | Source-backed, structured technology knowledge map | **Active development** · validation/search tooling |
+| 📱 [BLCDeviceLab](https://github.com/BLCCoreStudio/BLCDeviceLab) | Desktop workspace for connecting, diagnosing and automating Android devices | **Active development** · cross-platform CI |
+| 🎙️ [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Private cross-platform voice dictation | **Active development** · Rust/Tauri foundation in progress |
+
+The public portfolio is intentionally being consolidated around projects with a clear purpose, verifiable behavior, and maintained development paths. Smaller experiments are not treated as flagship work.
+
+---
+
 ## Engineering focus
 
-- Build practical developer tools with clear failure modes, documented limitations, and reproducible releases.
-- Work primarily across **Rust, Python, Linux, Git/GitHub, GitHub Actions, CI/CD, repository analysis, and automation**.
-- Contribute small, test-backed fixes upstream and document the reasoning behind changes.
-- Prefer local-first workflows, conservative automation, and explicit security boundaries.
+- **Rust, Python, Android, Linux, Git/GitHub, GitHub Actions and CI/CD**
+- Local-first software with explicit privacy and security boundaries
+- Reproducible builds, automated tests and evidence-backed release workflows
+- Repository analysis, developer tooling and AI-assisted development infrastructure
+- Clear limitations instead of unsupported product claims
 
-## Start here — two flagship tools
+---
+
+## Two mature developer tools
 
 ### 🧭 AgentContextMap
 
 **[AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)** maps which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline.
 
-It is **local, read-only, and deterministic**: no LLM calls, no repository uploads, and no execution of repository instructions. The stable **v0.2.3** release includes a GitHub Action, SARIF 2.1.0 output for Code Scanning, conflict detection, target-path analysis, GitHub Actions job summaries, checksum verification, and a self-contained HTML report.
+It is local, read-only and deterministic: no LLM calls, no repository uploads, and no execution of repository instructions. The stable **v0.2.3** release includes a GitHub Action, SARIF 2.1.0 output for Code Scanning, conflict detection, target-path analysis, GitHub Actions job summaries, checksum verification, and a self-contained HTML report.
 
 ```yaml
 - uses: BLCCoreStudio/AgentContextMap@v0.2.3
@@ -39,15 +57,15 @@ It is **local, read-only, and deterministic**: no LLM calls, no repository uploa
 
 ### 🩺 RepoDoctor CI
 
-**[RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)** scores repository health across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture — with optional CI quality gates.
+**[RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)** scores repository health across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture, with optional quality gates.
 
-The published **GitHub Marketplace Action v0.1.3** starts in report-only mode and can later enforce a minimum score or finding severity. The documented workflow requires only read access to repository contents.
+The published **GitHub Marketplace Action v0.1.3** starts in report-only mode and can later enforce a minimum score or finding severity.
 
 ```yaml
 - uses: BLCCoreStudio/RepoDoctor@v0.1.3
 ```
 
-[Explore RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) · [View on GitHub Marketplace](https://github.com/marketplace/actions/repodoctor-ci) · [Download the Linux CLI](https://github.com/BLCCoreStudio/RepoDoctor/releases/tag/v0.1.1)
+[Explore RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) · [View on GitHub Marketplace](https://github.com/marketplace/actions/repodoctor-ci)
 
 ---
 
@@ -55,58 +73,27 @@ The published **GitHub Marketplace Action v0.1.3** starts in report-only mode an
 
 Recent contributions focus on small, test-backed fixes in established projects.
 
-- **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) and [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) — **both merged upstream**.
-- **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) — generated C# model-description fix; **open / under review**.
-- **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) — Linux `SOCK_CLOEXEC` datapath fix; **open / under review**.
+- **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) and [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) — **merged upstream**.
+- **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) — generated C# model-description fix; **under review**.
+- **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) — Linux `SOCK_CLOEXEC` datapath fix; **under review**.
 
 ---
 
-## Flagship projects
+## Additional maintained tooling
 
-| Project | Focus | Status |
-| --- | --- | --- |
-| 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.3** · Rust · MIT |
-| 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health scoring and CI quality gates | **Marketplace Action v0.1.3** · Alpha |
-| 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Command policy, prompt-risk scanning, and optional Linux isolation | **Development preview** · Rust · MIT |
+[AgentGuard](https://github.com/BLCCoreStudio/AgentGuard), [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail), [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor), and [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) cover focused trust, evidence, MCP diagnostics, and local redaction workflows for AI-assisted development.
 
-**BLCCoreStudio** is an independent developer project namespace. The main focus is practical repository tooling, Linux-first utilities, local-first automation, and explainable safety controls for AI-assisted development.
-
----
-
-## AI agent trust tooling
-
-| Project | Focus |
-| --- | --- |
-| 🧾 [AgentTrail](https://github.com/BLCCoreStudio/AgentTrail) | Wrapped command evidence, integrity-verifiable receipts, and read-only working-tree review hints |
-| 🩻 [MCPDoctor](https://github.com/BLCCoreStudio/MCPDoctor) | Local MCP configuration review, executable diagnostics, and baseline drift checks |
-| 🧼 [ContextGuard](https://github.com/BLCCoreStudio/ContextGuard) | Local redaction of secrets and sensitive project context before sharing with AI tools |
-
-Earlier focused experiments are being consolidated into these primary projects instead of expanding the portfolio with overlapping tools.
-
----
-
-## Released Linux utilities
-
-| Project | What it does | Release |
-| --- | --- | --- |
-| 🔐 [EnvGuard](https://github.com/BLCCoreStudio/EnvGuard) | Detects secrets and sensitive files before they reach Git | [v0.1.0](https://github.com/BLCCoreStudio/EnvGuard/releases/tag/v0.1.0) |
-| 🔌 [PortPeek](https://github.com/BLCCoreStudio/PortPeek) | Finds the process using a TCP or UDP port on Linux | [v0.1.0](https://github.com/BLCCoreStudio/PortPeek/releases/tag/v0.1.0) |
-| 💾 [DiskHog](https://github.com/BLCCoreStudio/DiskHog) | Finds files and directories consuming the most disk space | [v0.1.0](https://github.com/BLCCoreStudio/DiskHog/releases/tag/v0.1.0) |
-| #️⃣ [HashCheck](https://github.com/BLCCoreStudio/HashCheck) | Calculates and verifies SHA-256/SHA-512 checksums and release manifests | [v0.1.0](https://github.com/BLCCoreStudio/HashCheck/releases/tag/v0.1.0) |
-| ⏱️ [BuildTimer](https://github.com/BLCCoreStudio/BuildTimer) | Measures command durations and keeps local timing history | [v0.1.0](https://github.com/BLCCoreStudio/BuildTimer/releases/tag/v0.1.0) |
-| 🧹 [GitClean](https://github.com/BLCCoreStudio/GitClean) | Finds generated build/cache directories with dry-run and Git-aware safeguards | [v0.1.0](https://github.com/BLCCoreStudio/GitClean/releases/tag/v0.1.0) |
-| 🔔 [TaskBell](https://github.com/BLCCoreStudio/TaskBell) | Notifies you when long-running terminal commands finish | [v0.1.0](https://github.com/BLCCoreStudio/TaskBell/releases/tag/v0.1.0) |
-
-**[TermKeys](https://github.com/BLCCoreStudio/TermKeys)** is a separate proprietary Linux terminal-shortcut utility with a public release and documentation surface.
+Small Linux utilities remain available in the repositories list, but the profile intentionally prioritizes larger maintained projects over repository count.
 
 ---
 
 ## Engineering approach
 
-- **Local-first** where practical; avoid unnecessary accounts, uploads, and telemetry.
-- **Conservative defaults** around destructive or security-sensitive behavior.
-- **Explicit limitations** instead of overstating what a tool can prove.
-- **Verifiable releases** with versioned artifacts and checksum material where applicable.
+- Prefer **local-first** behavior where practical.
+- Keep destructive and security-sensitive operations conservative by default.
+- Use CI and tests as evidence, not decoration.
+- Document important limitations and trust boundaries explicitly.
+- Consolidate overlapping experiments instead of presenting every prototype as a standalone flagship product.
 
 <div align="center">
 
