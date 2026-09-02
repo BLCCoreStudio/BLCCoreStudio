@@ -2,11 +2,11 @@
 
 <img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — Independent developer tools, Linux utilities, and repository intelligence" />
 
-[![AgentContextMap](https://img.shields.io/badge/AgentContextMap-v0.2.0-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
+[![AgentContextMap](https://img.shields.io/badge/AgentContextMap-v0.2.3-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
 [![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 
-### Developer tools for repositories, Linux workflows, and safer AI-assisted development.
+### Independent developer work focused on repository tooling, Linux workflows, CI/CD, and safer AI-assisted development.
 
 [**Explore AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
 
@@ -14,21 +14,28 @@
 
 ---
 
+## Engineering focus
+
+- Build practical developer tools with clear failure modes, documented limitations, and reproducible releases.
+- Work primarily across **Rust, Python, Linux, Git/GitHub, GitHub Actions, CI/CD, repository analysis, and automation**.
+- Contribute small, test-backed fixes upstream and document the reasoning behind changes.
+- Prefer local-first workflows, conservative automation, and explicit security boundaries.
+
 ## Start here — two flagship tools
 
 ### 🧭 AgentContextMap
 
 **[AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)** maps which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline.
 
-It is **local, read-only, and deterministic**: no LLM calls, no repository uploads, and no execution of repository instructions. The stable **v0.2.0** release includes a GitHub Action, SARIF 2.1.0 output for Code Scanning, conflict detection, target-path analysis, and a self-contained HTML report.
+It is **local, read-only, and deterministic**: no LLM calls, no repository uploads, and no execution of repository instructions. The stable **v0.2.3** release includes a GitHub Action, SARIF 2.1.0 output for Code Scanning, conflict detection, target-path analysis, GitHub Actions job summaries, checksum verification, and a self-contained HTML report.
 
 ```yaml
-- uses: BLCCoreStudio/AgentContextMap@v0.2.0
+- uses: BLCCoreStudio/AgentContextMap@v0.2.3
   with:
     path: .
 ```
 
-[Explore the project](https://github.com/BLCCoreStudio/AgentContextMap) · [Use it in GitHub Actions](https://github.com/BLCCoreStudio/AgentContextMap#github-actions) · [Download v0.2.0](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.2.0)
+[Explore the project](https://github.com/BLCCoreStudio/AgentContextMap) · [Use it in GitHub Actions](https://github.com/BLCCoreStudio/AgentContextMap#github-actions) · [Download v0.2.3](https://github.com/BLCCoreStudio/AgentContextMap/releases/tag/v0.2.3)
 
 ### 🩺 RepoDoctor CI
 
@@ -58,7 +65,7 @@ Recent contributions focus on small, test-backed fixes in established projects.
 
 | Project | Focus | Status |
 | --- | --- | --- |
-| 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.0** · Rust · MIT |
+| 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.3** · Rust · MIT |
 | 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health scoring and CI quality gates | **Marketplace Action v0.1.3** · Alpha |
 | 🛡️ [AgentGuard](https://github.com/BLCCoreStudio/AgentGuard) | Command policy, prompt-risk scanning, and optional Linux isolation | **Development preview** · Rust · MIT |
 
