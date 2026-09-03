@@ -6,7 +6,7 @@
 [![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 
-### A small set of maintained developer tools and local-first software projects.
+### A small set of maintained developer tools, local-first software, and technical knowledge projects.
 
 [**Explore AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
 
@@ -23,6 +23,7 @@
 | 🇹🇷 [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop evaluation infrastructure for Turkish AI text and audio | **Alpha 0.11.x** · Python |
 | 🎙️ [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Private cross-platform voice dictation with local-first speech recognition | **Pre-alpha** · Rust/Tauri |
 | ⌨️ [TermKeys](https://github.com/BLCCoreStudio/TermKeys) | Safer terminal shortcuts and configuration management for Linux | **Alpha v0.1.0** · Linux |
+| 🗺️ [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex) | Source-backed, structured technology knowledge map | **Active development** · Python |
 
 BLCCoreStudio is intentionally reducing maintenance surface. Older experiments and projects outside this set are being retired rather than kept artificially active.
 
@@ -35,6 +36,7 @@ BLCCoreStudio is intentionally reducing maintenance surface. Older experiments a
 - Reproducible builds, automated tests and evidence-backed release workflows
 - Repository analysis, developer tooling and AI-assisted development infrastructure
 - Human-in-the-loop AI evaluation
+- Structured, source-backed technical knowledge
 - Clear limitations instead of unsupported product claims
 
 ---
