@@ -1,12 +1,12 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — Independent developer tools, local-first AI tooling, and Android development" />
+<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — Developer tools, AI evaluation, security research, and local-first software" />
 
 [![AgentContextMap](https://img.shields.io/badge/AgentContextMap-v0.2.3-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
 [![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 ![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
 
-### Independent software projects focused on developer tooling, local-first AI workflows, Android, CI/CD, and practical automation.
+### Developer tooling, local-first AI workflows, security research, evaluation infrastructure, and open technical knowledge.
 
 [**Explore AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
 
@@ -20,12 +20,12 @@
 | --- | --- | --- |
 | 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.3** · Rust · GitHub Action |
 | 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health analysis and configurable CI quality gates | **Marketplace Action v0.1.3** · Alpha |
-| 🇹🇷 [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop evaluation for Turkish AI text and audio quality | **Active development** · Python |
-| 🎙️ [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Fast, private, cross-platform voice dictation | **Active development** · Rust |
+| 🔬 [BLCReverseLab](https://github.com/BLCCoreStudio/BLCReverseLab) | Evidence-first authorized reverse-engineering and application analysis workspace | **1.1 analysis line** · Python · JADX/Ghidra integration |
+| 🇹🇷 [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop evaluation infrastructure for Turkish AI text and audio | **Alpha 0.11.x** · Python |
+| 🎙️ [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Private cross-platform voice dictation with local-first speech recognition | **Pre-alpha** · Rust/Tauri |
 | 🗺️ [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex) | Source-backed, structured technology knowledge map | **Active development** · Python |
-| 📱 [BLCDeviceLab](https://github.com/BLCCoreStudio/BLCDeviceLab) | Physical Android device development, diagnosis, capture, and repeatable workflows | **Strategic development** · Desktop |
 
-These are the projects currently representing BLCCoreStudio. Experimental utilities and narrowly scoped prototypes remain available in the repositories list, but they are intentionally not presented as portfolio work.
+The profile intentionally highlights a small set of projects with clear scope, verifiable behavior, and maintained development paths rather than repository count.
 
 ---
 
@@ -35,6 +35,7 @@ These are the projects currently representing BLCCoreStudio. Experimental utilit
 - Local-first software with explicit privacy and security boundaries
 - Reproducible builds, automated tests and evidence-backed release workflows
 - Repository analysis, developer tooling and AI-assisted development infrastructure
+- Human-in-the-loop AI evaluation and evidence-oriented security tooling
 - Clear limitations instead of unsupported product claims
 
 ---
@@ -76,6 +77,7 @@ Recent contributions focus on small, test-backed fixes in established projects.
 - **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) and [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) — **merged upstream**.
 - **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) — generated C# model-description fix; **under review**.
 - **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) — Linux `SOCK_CLOEXEC` datapath fix; **under review**.
+- **rtk** — [#3778](https://github.com/rtk-ai/rtk/pull/3778) — Windows GNU linker-stack fix; **under review**.
 
 ---
 
