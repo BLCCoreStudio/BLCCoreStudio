@@ -1,53 +1,49 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — Developer tools, local-first software, and AI evaluation" />
+<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio developer profile" />
 
-[![AgentContextMap](https://img.shields.io/badge/AgentContextMap-v0.2.3-7C3AED?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
-[![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-1F6FEB?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
-![Linux](https://img.shields.io/badge/Platform-Linux-06B6D4?style=for-the-badge&logo=linux&logoColor=white)
+# BLCDev
 
-### A small set of maintained developer tools, local-first software, and technical knowledge projects.
+**Independent developer building Android products, developer tools, Linux utilities, and open-source software under `BLCCoreStudio`.**
 
-[**Explore AgentContextMap →**](https://github.com/BLCCoreStudio/AgentContextMap) · [**Try RepoDoctor CI →**](https://github.com/marketplace/actions/repodoctor-ci)
+[![AgentContextMap](https://img.shields.io/badge/AgentContextMap-v0.2.3-24292F?style=flat-square&logo=rust&logoColor=white)](https://github.com/BLCCoreStudio/AgentContextMap)
+[![RepoDoctor CI](https://img.shields.io/badge/Marketplace-RepoDoctor%20CI-24292F?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/repodoctor-ci)
 
 </div>
 
----
+## Selected work
 
-## Maintained projects
-
-| Project | Focus | Status |
+| Project | What it does | Current status |
 | --- | --- | --- |
-| 🧭 [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps coding-agent instruction scope, activation, conflicts, and context | **Stable v0.2.3** · Rust · GitHub Action |
-| 🩺 [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health analysis and configurable CI quality gates | **Marketplace Action v0.1.3** · Alpha |
-| 🇹🇷 [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop evaluation infrastructure for Turkish AI text and audio | **Alpha 0.11.x** · Python |
-| 🎙️ [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Private cross-platform voice dictation with local-first speech recognition | **Pre-alpha** · Rust/Tauri |
-| ⌨️ [TermKeys](https://github.com/BLCCoreStudio/TermKeys) | Safer terminal shortcuts and configuration management for Linux | **Alpha v0.1.0** · Linux |
-| 🗺️ [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex) | Source-backed, structured technology knowledge map | **Active development** · Python |
+| [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps which repository instructions can affect coding agents, including activation, scope, conflicts, SARIF and local HTML reports | **Stable v0.2.3** · Rust · GitHub Action |
+| [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health analysis with prioritized findings and optional CI quality gates | **Marketplace Action v0.1.3** · Alpha |
+| [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop evaluation infrastructure for Turkish AI text/audio, review, calibration and reliability analysis | **Alpha 0.13.x** · Python |
+| [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Local-first cross-platform voice dictation with evidence-based platform capability boundaries | **Pre-alpha** · Rust/Tauri |
+| [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex) | Source-backed structured technology knowledge map with validation and search tooling | **Active development** · Python |
+| [TermKeys](https://github.com/BLCCoreStudio/TermKeys) | Safer terminal shortcut and configuration management for Linux | **Alpha v0.1.0** · Linux |
 
-BLCCoreStudio is intentionally reducing maintenance surface. Older experiments and projects outside this set are being retired rather than kept artificially active.
+The public profile is intentionally selective. Older experiments and maintenance-only projects are not presented as active products.
 
----
+## Android product work
 
-## Engineering focus
+Android products are being developed behind explicit engineering and release gates rather than published early for appearance's sake. Current work is focused on reproducible `./gradlew` builds, testable domain/data/UI boundaries, durable local persistence, permission and process-death behavior, accessibility, localization, device validation, installable test APKs, and evidence-backed release readiness.
 
-- **Rust, Python, Linux, Git/GitHub, GitHub Actions and CI/CD**
-- Local-first software with explicit privacy and security boundaries
-- Reproducible builds, automated tests and evidence-backed release workflows
-- Repository analysis, developer tooling and AI-assisted development infrastructure
-- Human-in-the-loop AI evaluation
-- Structured, source-backed technical knowledge
-- Clear limitations instead of unsupported product claims
+Private product repositories remain private until a deliberate release/visibility decision is made. No private product is presented here as publicly available before that decision.
 
----
+## Engineering standards
 
-## Featured developer tools
+- **Evidence before claims.** Compile success is not treated as proof of runtime reliability, accessibility, performance, security or cross-platform compatibility.
+- **Local-first where it matters.** Privacy boundaries and data ownership are explicit rather than implicit.
+- **Reproducible delivery.** CI, pinned/reviewed dependencies, tests, checksums and release artifacts are part of the product surface.
+- **Small maintenance surface.** Overlapping experiments are retired or moved to maintenance-only status instead of being kept artificially active.
+- **No rewrite for its own sake.** Architecture changes must solve a measured product or engineering problem.
+- **Transparent limitations.** Pre-alpha/alpha projects say so, and unsupported capabilities are not marketed as complete.
 
-### 🧭 AgentContextMap
+## Featured tools
 
-**[AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)** maps which repository instructions can affect Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline.
+### AgentContextMap
 
-It is local, read-only and deterministic: no LLM calls, no repository uploads, and no execution of repository instructions. The stable **v0.2.3** release includes a GitHub Action, SARIF 2.1.0 output for Code Scanning, conflict detection, target-path analysis, GitHub Actions job summaries, checksum verification, and a self-contained HTML report.
+[AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) is a local, read-only scanner for repository instruction systems used by Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf and Cline. It does not execute repository instructions or send repository content to an LLM service.
 
 ```yaml
 - uses: BLCCoreStudio/AgentContextMap@v0.2.3
@@ -55,37 +51,27 @@ It is local, read-only and deterministic: no LLM calls, no repository uploads, a
     path: .
 ```
 
-### 🩺 RepoDoctor CI
+### RepoDoctor CI
 
-**[RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)** scores repository health across security, testing, documentation, CI/CD, dependencies, configuration, repository structure, and architecture, with optional quality gates.
+[RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) turns repository-level engineering signals into a health score, prioritized findings and optional CI quality gates. The documented first-run configuration remains report-only so teams can inspect findings before enforcing thresholds.
 
 ```yaml
 - uses: BLCCoreStudio/RepoDoctor@v0.1.3
 ```
 
----
+## Open-source contributions
 
-## Upstream open-source work
+This account also carries contribution branches/forks for upstream projects. Those repositories are treated as contribution workspaces, not as BLCCoreStudio-authored products, and are intentionally excluded from the selected-product list above.
 
-Recent contributions focus on small, test-backed fixes in established projects.
+## Working areas
 
-- **Grafana Pathfinder** — [#1738](https://github.com/grafana/grafana-pathfinder-app/pull/1738) and [#1737](https://github.com/grafana/grafana-pathfinder-app/pull/1737) — **merged upstream**.
-- **Microsoft TypeSpec** — [#11791](https://github.com/microsoft/typespec/pull/11791) — **under review**.
-- **Microsoft MsQuic** — [#6282](https://github.com/microsoft/msquic/pull/6282) — **under review**.
-- **rtk** — [#3778](https://github.com/rtk-ai/rtk/pull/3778) — **under review**.
+`Android` · `Rust` · `Python` · `Linux` · `Git/GitHub` · `GitHub Actions` · `CI/CD` · `local-first software` · `developer tooling` · `AI evaluation`
 
 ---
-
-## Engineering approach
-
-- Keep the active project set deliberately small.
-- Prefer **local-first** behavior where practical.
-- Keep destructive and security-sensitive operations conservative by default.
-- Use CI and tests as evidence, not decoration.
-- Consolidate or retire overlapping experiments instead of maintaining them indefinitely.
 
 <div align="center">
 
-### Build fewer things. Make them useful. Maintain them well.
+**BLCDev · BLCCoreStudio**  
+Build fewer things. Validate them properly. Maintain them well.
 
 </div>
