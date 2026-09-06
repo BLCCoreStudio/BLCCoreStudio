@@ -1,45 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
   <title id="title">BLC Core Studio</title>
-  <desc id="desc">Developer tools and local-first software.</desc>
-
+  <desc id="desc">Animated banner for developer tools, local-first software and Android products.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A0D12"/>
-      <stop offset="1" stop-color="#111821"/>
+      <stop offset="0" stop-color="#070B12"/>
+      <stop offset="0.52" stop-color="#0D1420"/>
+      <stop offset="1" stop-color="#101827"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
       <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
+    <linearGradient id="accentMove" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"><animate attributeName="stop-color" values="#67E8F9;#A78BFA;#67E8F9" dur="5s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#60A5FA;#A78BFA" dur="5s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.025"/>
+    </pattern>
+    <clipPath id="screen"><rect x="1004" y="73" width="302" height="214" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1400" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="26" fill="url(#grid)"/>
 
-  <path d="M0 312H1400" stroke="#FFFFFF" stroke-opacity="0.06"/>
-  <path d="M1010 0L840 360" stroke="url(#accent)" stroke-opacity="0.22" stroke-width="1.5"/>
-  <path d="M1090 0L920 360" stroke="#FFFFFF" stroke-opacity="0.035"/>
-
-  <g transform="translate(78 76)">
-    <rect x="0" y="0" width="52" height="52" rx="14" fill="#0D141D" stroke="#67E8F9" stroke-opacity="0.35"/>
-    <path d="M14 16h9l6 10-6 10h-9l7-10-7-10Zm24 0h-7l6 10-6 10h7l7-10-7-10Z" fill="url(#accent)"/>
-
-    <text x="72" y="42" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="720" letter-spacing="-1.4">BLC Core Studio</text>
-
-    <text x="2" y="108" fill="#A7B4C3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="500">developer tools · local-first software · Android</text>
-
-    <text x="2" y="168" fill="#718096" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">rust / python / kotlin / linux / github actions</text>
+  <g opacity="0.7">
+    <circle cx="1190" cy="36" r="140" fill="#67E8F9" opacity="0.035"><animate attributeName="r" values="120;165;120" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="320" r="170" fill="#A78BFA" opacity="0.035"><animate attributeName="r" values="170;130;170" dur="8s" repeatCount="indefinite"/></circle>
   </g>
 
-  <g transform="translate(1040 82)">
-    <text x="0" y="0" fill="#6B7A8D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="1.5">BLCCORESTUDIO</text>
-    <text x="0" y="48" fill="#D9E1EA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">small scope</text>
-    <text x="0" y="78" fill="#D9E1EA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">clear behavior</text>
-    <text x="0" y="108" fill="#D9E1EA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">working software</text>
+  <path d="M0 312H1400" stroke="#FFFFFF" stroke-opacity="0.055"/>
+  <path d="M895 0L720 360" stroke="url(#accentMove)" stroke-opacity="0.16" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate" values="-20 0;45 0;-20 0" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M960 0L785 360" stroke="#FFFFFF" stroke-opacity="0.025"/>
 
-    <rect x="0" y="145" width="210" height="2" fill="url(#accent)" opacity="0.75"/>
+  <g transform="translate(74 64)">
+    <g filter="url(#glow)">
+      <rect x="0" y="0" width="58" height="58" rx="16" fill="#0B121D" stroke="url(#accentMove)" stroke-opacity="0.8"/>
+      <path d="M15 18h10l7 11-7 11H15l8-11-8-11Zm27 0h-8l7 11-7 11h8l8-11-8-11Z" fill="url(#accentMove)"/>
+    </g>
 
-    <text x="0" y="188" fill="#6B7A8D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">github.com/BLCCoreStudio</text>
+    <text x="82" y="45" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="60" font-weight="740" letter-spacing="-1.6">BLC Core Studio</text>
+    <text x="2" y="112" fill="#AAB8C8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="500">developer tools · local-first software · Android products</text>
+
+    <g transform="translate(2 150)">
+      <rect width="778" height="48" rx="12" fill="#0A111B" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <circle cx="21" cy="24" r="5" fill="#67E8F9"><animate attributeName="opacity" values="1;.35;1" dur="1.5s" repeatCount="indefinite"/></circle>
+      <text x="38" y="30" fill="#8190A3" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15">rust / python / kotlin / android / linux / github actions</text>
+      <rect x="680" y="16" width="8" height="18" rx="2" fill="#A78BFA"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
   </g>
 
-  <rect x="1" y="1" width="1398" height="358" rx="23" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/>
+  <g clip-path="url(#screen)">
+    <rect x="1004" y="73" width="302" height="214" rx="18" fill="#080D15" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <rect x="1004" y="73" width="302" height="35" fill="#0D1521"/>
+    <circle cx="1026" cy="91" r="4" fill="#FB7185" opacity="0.9"/>
+    <circle cx="1042" cy="91" r="4" fill="#FBBF24" opacity="0.9"/>
+    <circle cx="1058" cy="91" r="4" fill="#34D399" opacity="0.9"/>
+    <text x="1080" y="96" fill="#66758A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">studio://live</text>
+
+    <text x="1024" y="137" fill="#67E8F9" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">$ build useful things</text>
+    <text x="1024" y="167" fill="#DDE6F0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">✓ small scope</text>
+    <text x="1024" y="194" fill="#DDE6F0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">✓ clear behavior</text>
+    <text x="1024" y="221" fill="#DDE6F0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">✓ working software</text>
+    <text x="1024" y="255" fill="#A78BFA" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">status: shipping</text>
+    <rect x="1004" y="108" width="302" height="2" fill="url(#accentMove)" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 176;0 0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.8;0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(1010 310)">
+    <circle cx="0" cy="0" r="3" fill="#34D399"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="12" y="5" fill="#6F8095" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">BLCCORESTUDIO / ONLINE</text>
+  </g>
+
+  <rect x="1" y="1" width="1398" height="358" rx="25" fill="none" stroke="url(#accent)" stroke-opacity="0.15"/>
 </svg>
