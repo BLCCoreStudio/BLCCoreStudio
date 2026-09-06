@@ -7,26 +7,26 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=900&color=67E8F9&center=true&vCenter=true&width=820&lines=Developer+tools+that+do+one+thing+well.;Local-first+software+and+Android+products.;Rust+%C2%B7+Python+%C2%B7+Kotlin+%C2%B7+Shell.;Build.+Validate.+Ship." alt="Animated typing intro" />
 
 <p>
-  I build focused developer tools, local-first software and small products with an emphasis on inspectable behavior and practical automation.
+  Focused developer tools, local-first software and small products built around clear behavior and practical automation.
 </p>
 
 <p>
-  <a href="https://github.com/BLCCoreStudio/OpenDevIndex"><img src="https://img.shields.io/badge/OpenDevIndex-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="OpenDevIndex" /></a>
-  <a href="https://github.com/BLCCoreStudio/RepoDoctor"><img src="https://img.shields.io/badge/RepoDoctor-0F172A?style=for-the-badge&logo=githubactions&logoColor=A78BFA" alt="RepoDoctor" /></a>
-  <a href="https://github.com/BLCCoreStudio/AgentContextMap"><img src="https://img.shields.io/badge/AgentContextMap-0F172A?style=for-the-badge&logo=github&logoColor=F59E0B" alt="AgentContextMap" /></a>
+  <a href="https://github.com/BLCCoreStudio/OpenDevIndex"><img src="https://img.shields.io/badge/OpenDevIndex-111827?style=for-the-badge&logo=github&logoColor=FF4F79" alt="OpenDevIndex" /></a>
+  <a href="https://github.com/BLCCoreStudio/RepoDoctor"><img src="https://img.shields.io/badge/RepoDoctor-111827?style=for-the-badge&logo=githubactions&logoColor=A78BFA" alt="RepoDoctor" /></a>
+  <a href="https://github.com/BLCCoreStudio/AgentContextMap"><img src="https://img.shields.io/badge/AgentContextMap-111827?style=for-the-badge&logo=github&logoColor=FF4F79" alt="AgentContextMap" /></a>
 </p>
 
-<img width="100%" src="./assets/neon-unicorn.svg" alt="Animated cinematic BLC unicorn runner" />
+<img width="100%" src="./assets/neon-unicorn.svg" alt="Animated rainbow BLC unicorn runner" />
 
 </div>
 
 <br />
 
-## 🚀 Featured Projects
-
-Four selected public projects are shown as large animated cards. Stars, forks, primary language and update dates are refreshed automatically by GitHub Actions.
-
-<img width="100%" src="./assets/project-cards.svg" alt="Animated featured project cards" />
+<div align="center">
+  <a href="https://github.com/BLCCoreStudio?tab=repositories">
+    <img width="100%" src="./assets/project-cards.svg" alt="BLCCoreStudio top open source projects" />
+  </a>
+</div>
 
 <br />
 
@@ -34,8 +34,6 @@ Four selected public projects are shown as large animated cards. Stars, forks, p
 
 <div align="center">
 
-[![TurkishEvalKit](https://img.shields.io/badge/TurkishEvalKit-111827?style=for-the-badge&logo=github&logoColor=F472B6)](https://github.com/BLCCoreStudio/TurkishEvalKit)
-[![TermKeys](https://img.shields.io/badge/TermKeys-111827?style=for-the-badge&logo=gnubash&logoColor=FBBF24)](https://github.com/BLCCoreStudio/TermKeys)
 [![TaskBell](https://img.shields.io/badge/TaskBell-111827?style=for-the-badge&logo=linux&logoColor=67E8F9)](https://github.com/BLCCoreStudio/TaskBell)
 [![EnvGuard](https://img.shields.io/badge/EnvGuard-111827?style=for-the-badge&logo=dotenv&logoColor=34D399)](https://github.com/BLCCoreStudio/EnvGuard)
 [![DiskHog](https://img.shields.io/badge/DiskHog-111827?style=for-the-badge&logo=linux&logoColor=A78BFA)](https://github.com/BLCCoreStudio/DiskHog)
@@ -74,16 +72,4 @@ Four selected public projects are shown as large animated cards. Stars, forks, p
 
 <div align="center">
   <img width="100%" src="./assets/chakra-trail.svg" alt="Animated Naruto chakra contribution trail" />
-</div>
-
-<br />
-
----
-
-<div align="center">
-
-`small scope` · `clear behavior` · `working software`
-
-<sub>Featured project metadata refreshes automatically. Profile visuals are repository-owned animated SVG assets.</sub>
-
 </div>
