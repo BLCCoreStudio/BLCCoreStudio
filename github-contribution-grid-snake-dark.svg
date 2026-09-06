@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Contribution trail initializing">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#67E8F9"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="150" rx="18" fill="#0D1117"/>
+  <g fill="#161B22">
+    <circle cx="35" cy="42" r="8"/><circle cx="65" cy="42" r="8"/><circle cx="95" cy="42" r="8"/><circle cx="125" cy="42" r="8"/><circle cx="155" cy="42" r="8"/><circle cx="185" cy="42" r="8"/><circle cx="215" cy="42" r="8"/><circle cx="245" cy="42" r="8"/><circle cx="275" cy="42" r="8"/><circle cx="305" cy="42" r="8"/><circle cx="335" cy="42" r="8"/><circle cx="365" cy="42" r="8"/><circle cx="395" cy="42" r="8"/><circle cx="425" cy="42" r="8"/><circle cx="455" cy="42" r="8"/><circle cx="485" cy="42" r="8"/><circle cx="515" cy="42" r="8"/><circle cx="545" cy="42" r="8"/><circle cx="575" cy="42" r="8"/><circle cx="605" cy="42" r="8"/><circle cx="635" cy="42" r="8"/><circle cx="665" cy="42" r="8"/><circle cx="695" cy="42" r="8"/><circle cx="725" cy="42" r="8"/><circle cx="755" cy="42" r="8"/><circle cx="785" cy="42" r="8"/><circle cx="815" cy="42" r="8"/><circle cx="845" cy="42" r="8"/>
+    <circle cx="35" cy="72" r="8"/><circle cx="65" cy="72" r="8"/><circle cx="95" cy="72" r="8"/><circle cx="125" cy="72" r="8"/><circle cx="155" cy="72" r="8"/><circle cx="185" cy="72" r="8"/><circle cx="215" cy="72" r="8"/><circle cx="245" cy="72" r="8"/><circle cx="275" cy="72" r="8"/><circle cx="305" cy="72" r="8"/><circle cx="335" cy="72" r="8"/><circle cx="365" cy="72" r="8"/><circle cx="395" cy="72" r="8"/><circle cx="425" cy="72" r="8"/><circle cx="455" cy="72" r="8"/><circle cx="485" cy="72" r="8"/><circle cx="515" cy="72" r="8"/><circle cx="545" cy="72" r="8"/><circle cx="575" cy="72" r="8"/><circle cx="605" cy="72" r="8"/><circle cx="635" cy="72" r="8"/><circle cx="665" cy="72" r="8"/><circle cx="695" cy="72" r="8"/><circle cx="725" cy="72" r="8"/><circle cx="755" cy="72" r="8"/><circle cx="785" cy="72" r="8"/><circle cx="815" cy="72" r="8"/><circle cx="845" cy="72" r="8"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="0" cy="0" r="7" fill="url(#g)"><animateMotion dur="4s" repeatCount="indefinite" path="M35 72 C180 18 320 120 455 72 S720 18 845 72"/></circle>
+    <circle cx="0" cy="0" r="5" fill="#67E8F9" opacity="0.65"><animateMotion dur="4s" begin="-.18s" repeatCount="indefinite" path="M35 72 C180 18 320 120 455 72 S720 18 845 72"/></circle>
+    <circle cx="0" cy="0" r="4" fill="#A78BFA" opacity="0.45"><animateMotion dur="4s" begin="-.34s" repeatCount="indefinite" path="M35 72 C180 18 320 120 455 72 S720 18 845 72"/></circle>
+  </g>
+  <text x="450" y="128" text-anchor="middle" fill="#6E7681" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">contribution trail · automatic generator initializing</text>
+</svg>
