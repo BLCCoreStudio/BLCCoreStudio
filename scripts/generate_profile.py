@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate dependency-free SVG assets for the BLCCoreStudio profile README."""
+"""Generate the animated featured-project board for the BLCCoreStudio profile."""
 
 from __future__ import annotations
 
@@ -11,15 +11,14 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 OWNER = "BLCCoreStudio"
-REPOS = [
-    "OpenDevIndex",
-    "AgentContextMap",
-    "RepoDoctor",
-    "BLCVoice",
-    "TurkishEvalKit",
-    "TermKeys",
-]
+REPOS = ["OpenDevIndex", "RepoDoctor", "AgentContextMap", "BLCVoice"]
 OUT = Path("assets/project-cards.svg")
+ACCENTS = [
+    ("#22D3EE", "#2563EB"),
+    ("#A78BFA", "#EC4899"),
+    ("#F59E0B", "#F97316"),
+    ("#34D399", "#06B6D4"),
+]
 
 
 def api_get(url: str) -> dict:
@@ -47,71 +46,62 @@ def compact(value: int) -> str:
     return str(value)
 
 
-def shorten(text: str, limit: int = 86) -> str:
+def shorten(text: str, limit: int = 72) -> str:
     text = " ".join((text or "No description yet.").split())
-    if len(text) <= limit:
-        return text
-    return text[: limit - 1].rstrip() + "…"
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
-def svg_text(value: object) -> str:
+def esc(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
 def card(repo: dict, x: int, y: int, index: int) -> str:
-    name = svg_text(repo["name"])
-    description = svg_text(shorten(repo.get("description") or ""))
-    language = svg_text(repo.get("language") or "Mixed")
+    name = esc(repo["name"])
+    description = esc(shorten(repo.get("description") or ""))
+    language = esc(repo.get("language") or "Mixed")
     stars = compact(int(repo.get("stargazers_count", 0)))
     forks = compact(int(repo.get("forks_count", 0)))
-    updated = svg_text((repo.get("updated_at") or "")[:10] or "unknown")
-    accent = ["#67E8F9", "#A78BFA", "#60A5FA", "#34D399", "#F472B6", "#FBBF24"][index % 6]
+    updated = esc((repo.get("updated_at") or "")[:10] or "unknown")
+    c1, c2 = ACCENTS[index]
+    gid = f"g{index}"
 
     return f'''<g transform="translate({x} {y})">
-  <rect width="570" height="152" rx="18" fill="#0B121D" stroke="#FFFFFF" stroke-opacity="0.075"/>
-  <rect width="5" height="152" rx="2.5" fill="{accent}" opacity="0.9"/>
-  <circle cx="32" cy="34" r="6" fill="{accent}" opacity="0.95"/>
-  <text x="50" y="42" fill="#F1F5F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">{name}</text>
-  <text x="28" y="77" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14.5">{description}</text>
-  <line x1="28" y1="101" x2="542" y2="101" stroke="#FFFFFF" stroke-opacity="0.055"/>
-  <circle cx="34" cy="127" r="5" fill="{accent}" opacity="0.75"/>
-  <text x="47" y="132" fill="#7F8FA4" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">{language}</text>
-  <text x="214" y="132" fill="#7F8FA4" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">★ {stars}</text>
-  <text x="292" y="132" fill="#7F8FA4" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">⑂ {forks}</text>
-  <text x="390" y="132" fill="#5E6F84" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">updated {updated}</text>
+  <defs><linearGradient id="{gid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient></defs>
+  <rect width="570" height="205" rx="24" fill="#0A1020" stroke="url(#{gid})" stroke-opacity=".66" stroke-width="2"/>
+  <circle cx="506" cy="37" r="48" fill="{c1}" opacity=".07"><animate attributeName="r" values="42;58;42" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="526" cy="55" r="24" fill="{c2}" opacity=".08"><animate attributeName="cy" values="55;42;55" dur="2.5s" repeatCount="indefinite"/></circle>
+  <rect x="22" y="22" width="9" height="45" rx="4.5" fill="url(#{gid})"/>
+  <text x="49" y="49" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750">{name}</text>
+  <text x="24" y="94" fill="#A9B7CA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15.5">{description}</text>
+  <line x1="24" y1="125" x2="546" y2="125" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <circle cx="30" cy="158" r="5" fill="{c1}"/><text x="44" y="163" fill="#CBD5E1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">{language}</text>
+  <text x="199" y="163" fill="#FDE68A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">★ {stars}</text>
+  <text x="280" y="163" fill="#C4B5FD" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">⑂ {forks}</text>
+  <text x="389" y="163" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">{updated}</text>
+  <rect x="24" y="178" width="522" height="3" rx="1.5" fill="#172033"/>
+  <rect x="24" y="178" width="172" height="3" rx="1.5" fill="url(#{gid})"><animate attributeName="x" values="24;374;24" dur="4.5s" repeatCount="indefinite"/></rect>
 </g>'''
 
 
 def build_svg(repos: list[dict]) -> str:
-    cards = []
-    for i, repo in enumerate(repos):
-        col = i % 2
-        row = i // 2
-        cards.append(card(repo, 24 + col * 586, 92 + row * 170, i))
-
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
-  <title id="title">BLC Core Studio live project cards</title>
-  <desc id="desc">Automatically refreshed repository metadata for selected public projects.</desc>
+    positions = [(24, 96), (606, 96), (24, 319), (606, 319)]
+    cards = [card(repo, *positions[i], i) for i, repo in enumerate(repos)]
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="552" viewBox="0 0 1200 552" role="img" aria-labelledby="title desc">
+  <title id="title">BLC Core Studio featured projects</title>
+  <desc id="desc">Four colorful animated project cards with live public GitHub metadata.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070B12"/>
-      <stop offset="1" stop-color="#101827"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#67E8F9"/>
-      <stop offset="0.5" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030712"/><stop offset=".55" stop-color="#07111F"/><stop offset="1" stop-color="#10091C"/></linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
   </defs>
-  <rect x="1" y="1" width="1198" height="618" rx="24" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity="0.07"/>
-  <text x="28" y="42" fill="#F1F5F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Live project board</text>
-  <text x="28" y="66" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">public repository metadata · refreshed by GitHub Actions</text>
-  <rect x="932" y="32" width="238" height="30" rx="15" fill="#0B141F" stroke="#67E8F9" stroke-opacity="0.22"/>
-  <circle cx="952" cy="47" r="5" fill="#34D399"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
-  <text x="968" y="51" fill="#74869B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">AUTO REFRESH ENABLED</text>
-  <rect x="24" y="78" width="1148" height="2" fill="url(#line)" opacity="0.48"/>
+  <rect x="1" y="1" width="1198" height="550" rx="28" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <text x="28" y="44" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="780">Featured projects</text>
+  <text x="28" y="69" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">4 selected public repositories · live metadata · mobile-friendly board</text>
+  <rect x="956" y="28" width="212" height="35" rx="17.5" fill="#07111F" stroke="#22D3EE" stroke-opacity=".35"/>
+  <circle cx="978" cy="45.5" r="5" fill="#34D399"><animate attributeName="opacity" values="1;.2;1" dur="1.15s" repeatCount="indefinite"/></circle>
+  <text x="994" y="50" fill="#8CA0B8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">AUTO REFRESH</text>
+  <rect x="24" y="82" width="1148" height="2" fill="url(#header)" opacity=".62"/>
   {''.join(cards)}
-  <text x="28" y="607" fill="#46576C" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">source: GitHub REST API · generated from scripts/generate_profile.py</text>
+  <text x="28" y="541" fill="#43536A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5">source: GitHub REST API · refreshed automatically by GitHub Actions</text>
 </svg>'''
 
 
