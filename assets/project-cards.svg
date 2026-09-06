@@ -13,9 +13,7 @@
 <rect x="1" y="1" width="1198" height="1498" rx="34" fill="url(#stars)"/>
 <text x="56" y="64" fill="#ff4f79" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="24" font-weight="700">&gt; BLCCoreStudio</text>
 <text x="56" y="96" fill="#6d7b92" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="5">CODE  BUILD  SHARE  REPEAT</text>
-<rect x="46" y="135" width="8" height="100" rx="4" fill="#ff416c" filter="url(#pinkGlow)">
-  <animate attributeName="opacity" values=".55;1;.55" dur="2s" repeatCount="indefinite"/>
-</rect>
+<rect x="46" y="135" width="8" height="100" rx="4" fill="#ff416c" filter="url(#pinkGlow)"><animate attributeName="opacity" values=".55;1;.55" dur="2s" repeatCount="indefinite"/></rect>
 <text x="78" y="192" fill="url(#titleGrad)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="850">Top Open Source Projects</text>
 <text x="82" y="233" fill="#a7b0c1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18" letter-spacing="9">BY BLCCORESTUDIO</text>
 <rect x="720" y="220" width="425" height="42" rx="21" fill="#190b15" stroke="#ff416c" stroke-opacity=".68"/>
@@ -24,16 +22,14 @@
 
   <g transform="translate(44 300)">
     <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/>
-    <rect x="0" y="0" width="1112" height="160" rx="28" fill="url(#cardGlow0)" opacity=".10"/>
+    <rect width="1112" height="160" rx="28" fill="url(#cardGlow0)" opacity=".10"/>
     <rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/>
     <rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06">
       <animate attributeName="opacity" values=".04;.14;.04" dur="2.30s" repeatCount="indefinite"/>
     </rect>
-    <g transform="translate(52 45)" stroke="#ff416c" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="34" cy="34" r="27"/><path d="M34 7v13M34 48v13M7 34h13M48 34h13M15 15l9 9M44 44l9 9M53 15l-9 9M24 44l-9 9"/>
-</g>
+    <g transform="translate(52 45)" stroke="#ff416c" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="34" cy="34" r="27"/><path d="M34 7v13M34 48v13M7 34h13M48 34h13M15 15l9 9M44 44l9 9M53 15l-9 9M24 44l-9 9"/></g>
     <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">OpenDevIndex</text>
-    <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">An open, structured index of software, developer tools, AI, security, open source and emergin…</text>
+    <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">An open, structured index of software, developer tools, AI, security, open source and emerg…</text>
     <circle cx="179" cy="126" r="9" fill="#3572A5"/>
     <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Python</text>
     <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
@@ -48,42 +44,117 @@
   </g>
   <g transform="translate(44 485)">
     <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/>
-    <rect x="0" y="0" width="1112" height="160" rx="28" fill="url(#cardGlow1)" opacity=".10"/>
+    <rect width="1112" height="160" rx="28" fill="url(#cardGlow1)" opacity=".10"/>
     <rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/>
-    <rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06"><animate attributeName="opacity" values=".04;.14;.04" dur="2.52s" repeatCount="indefinite"/></rect>
+    <rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06">
+      <animate attributeName="opacity" values=".04;.14;.04" dur="2.52s" repeatCount="indefinite"/>
+    </rect>
     <g transform="translate(51 43)" stroke="#60a5fa" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 26h18l8-14 10 42 9-19h17"/><rect x="7" y="7" width="68" height="56" rx="16" opacity=".35"/></g>
     <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">RepoDoctor</text>
     <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Repository health analyzer for security, testing, CI/CD, dependencies, documentation and ar…</text>
-    <circle cx="179" cy="126" r="9" fill="#89E051"/><text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Shell</text>
-    <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text><text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text>
-    <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text><text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
-    <circle cx="1057" cy="80" r="31" fill="#281d2c"/><path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/></path><rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
+    <circle cx="179" cy="126" r="9" fill="#89E051"/>
+    <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Shell</text>
+    <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
+    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text>
+    <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text>
+    <text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <circle cx="1057" cy="80" r="31" fill="#281d2c"/>
+    <path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
   </g>
   <g transform="translate(44 670)">
-    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/><rect width="1112" height="160" rx="28" fill="url(#cardGlow2)" opacity=".10"/><rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/><rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06"><animate attributeName="opacity" values=".04;.14;.04" dur="2.74s" repeatCount="indefinite"/></rect>
+    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/>
+    <rect width="1112" height="160" rx="28" fill="url(#cardGlow2)" opacity=".10"/>
+    <rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06">
+      <animate attributeName="opacity" values=".04;.14;.04" dur="2.74s" repeatCount="indefinite"/>
+    </rect>
     <g transform="translate(49 41)" fill="none" stroke="#ff416c" stroke-width="7" stroke-linejoin="round"><path d="M38 8L8 24l30 16 30-16L38 8Z"/><path d="M8 37l30 16 30-16"/><path d="M8 50l30 16 30-16"/></g>
-    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">AgentContextMap</text><text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Map which repository instructions can affect your coding agents.</text><circle cx="179" cy="126" r="9" fill="#DEA584"/><text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Rust</text><text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text><text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text><text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text><text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text><circle cx="1057" cy="80" r="31" fill="#281d2c"/><path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/></path><rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
+    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">AgentContextMap</text>
+    <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Map which repository instructions can affect your coding agents.</text>
+    <circle cx="179" cy="126" r="9" fill="#DEA584"/>
+    <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Rust</text>
+    <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
+    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text>
+    <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text>
+    <text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <circle cx="1057" cy="80" r="31" fill="#281d2c"/>
+    <path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
   </g>
   <g transform="translate(44 855)">
-    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/><rect width="1112" height="160" rx="28" fill="url(#cardGlow3)" opacity=".10"/><rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/><rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06"><animate attributeName="opacity" values=".04;.14;.04" dur="2.96s" repeatCount="indefinite"/></rect>
+    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/>
+    <rect width="1112" height="160" rx="28" fill="url(#cardGlow3)" opacity=".10"/>
+    <rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06">
+      <animate attributeName="opacity" values=".04;.14;.04" dur="2.96s" repeatCount="indefinite"/>
+    </rect>
     <g transform="translate(52 37)" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round"><rect x="20" y="4" width="34" height="51" rx="17"/><path d="M10 40c0 25 54 25 54 0M37 66v16M23 82h28"/></g>
-    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">BLCVoice</text><text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Fast, private, cross-platform voice dictation that works where you type.</text><circle cx="179" cy="126" r="9" fill="#DEA584"/><text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Rust</text><text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text><text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text><text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text><text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text><circle cx="1057" cy="80" r="31" fill="#281d2c"/><path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/></path><rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
+    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">BLCVoice</text>
+    <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Fast, private, cross-platform voice dictation that works where you type.</text>
+    <circle cx="179" cy="126" r="9" fill="#DEA584"/>
+    <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Rust</text>
+    <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
+    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text>
+    <text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <circle cx="1057" cy="80" r="31" fill="#281d2c"/>
+    <path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
   </g>
   <g transform="translate(44 1040)">
-    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/><rect width="1112" height="160" rx="28" fill="url(#cardGlow4)" opacity=".10"/><rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/><rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06"><animate attributeName="opacity" values=".04;.14;.04" dur="3.18s" repeatCount="indefinite"/></rect>
+    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/>
+    <rect width="1112" height="160" rx="28" fill="url(#cardGlow4)" opacity=".10"/>
+    <rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#ff416c" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="25" y="23" width="110" height="114" rx="23" fill="#ff416c" opacity=".06">
+      <animate attributeName="opacity" values=".04;.14;.04" dur="3.18s" repeatCount="indefinite"/>
+    </rect>
     <g transform="translate(53 37)" fill="none" stroke="#ff416c" stroke-width="7" stroke-linejoin="round"><path d="M10 5h43l17 17v57H10Z"/><path d="M53 5v19h17"/><path d="M24 37h32M24 50h32M24 63h19"/><text x="36" y="78" font-family="ui-monospace,monospace" font-size="13" fill="#ff416c" stroke="none">TR</text></g>
-    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">TurkishEvalKit</text><text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Human-in-the-loop evaluation toolkit for Turkish AI text and audio quality.</text><circle cx="179" cy="126" r="9" fill="#3572A5"/><text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Python</text><text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text><text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text><text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text><text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text><circle cx="1057" cy="80" r="31" fill="#281d2c"/><path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/></path><rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
+    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">TurkishEvalKit</text>
+    <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Human-in-the-loop evaluation toolkit for Turkish AI text and audio quality, with versioned…</text>
+    <circle cx="179" cy="126" r="9" fill="#3572A5"/>
+    <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Python</text>
+    <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
+    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text>
+    <text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <circle cx="1057" cy="80" r="31" fill="#281d2c"/>
+    <path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
   </g>
   <g transform="translate(44 1225)">
-    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/><rect width="1112" height="160" rx="28" fill="url(#cardGlow5)" opacity=".10"/><rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#22c55e" stroke-opacity=".55" stroke-width="2"/><rect x="25" y="23" width="110" height="114" rx="23" fill="#22c55e" opacity=".06"><animate attributeName="opacity" values=".04;.14;.04" dur="3.40s" repeatCount="indefinite"/></rect>
+    <rect width="1112" height="160" rx="28" fill="#151b2a" stroke="#ffffff" stroke-opacity=".075"/>
+    <rect width="1112" height="160" rx="28" fill="url(#cardGlow5)" opacity=".10"/>
+    <rect x="24" y="22" width="112" height="116" rx="24" fill="#0b111d" stroke="#22c55e" stroke-opacity=".55" stroke-width="2"/>
+    <rect x="25" y="23" width="110" height="114" rx="23" fill="#22c55e" opacity=".06">
+      <animate attributeName="opacity" values=".04;.14;.04" dur="3.40s" repeatCount="indefinite"/>
+    </rect>
     <g transform="translate(49 42)" fill="none" stroke="#35e06f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l23 23-23 23M44 60h24"/></g>
-    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">TermKeys</text><text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Linux terminal shortcut management with safe backups, conflict checks, and recovery.</text><circle cx="179" cy="126" r="9" fill="#89E051"/><text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Shell</text><text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text><text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text><text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text><text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text><circle cx="1057" cy="80" r="31" fill="#281d2c"/><path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/></path><rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
+    <text x="168" y="56" fill="#ff4f79" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="780">TermKeys</text>
+    <text x="168" y="92" fill="#c8d2e3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Linux terminal shortcut management with safe backups, conflict checks, and recovery.</text>
+    <circle cx="179" cy="126" r="9" fill="#89E051"/>
+    <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Shell</text>
+    <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
+    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text>
+    <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text>
+    <text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
+    <circle cx="1057" cy="80" r="31" fill="#281d2c"/>
+    <path d="M1049 66l15 14-15 14" fill="none" stroke="#ff416c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-opacity" values=".55;1;.55" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <rect x="0" y="158" width="1112" height="2" fill="url(#accentLine)" opacity=".16"/>
   </g>
 <g opacity=".72">
   <path d="M0 1444L80 1398L128 1420L181 1375L255 1428L324 1407L397 1440L463 1384L530 1420L619 1400L710 1446L802 1408L885 1429L965 1380L1046 1419L1112 1397L1200 1440V1500H0Z" fill="#150b19"/>
-  <path d="M0 1453L81 1418L130 1431L184 1394L255 1445L322 1423L398 1453L468 1400L529 1437L620 1418L710 1461L805 1425L886 1446L964 1400L1046 1438L1112 1416L1200 1456" fill="none" stroke="#ff416c" stroke-width="5" stroke-linejoin="round">
-    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/>
-  </path>
+  <path d="M0 1453L81 1418L130 1431L184 1394L255 1445L322 1423L398 1453L468 1400L529 1437L620 1418L710 1461L805 1425L886 1446L964 1400L1046 1438L1112 1416L1200 1456" fill="none" stroke="#ff416c" stroke-width="5" stroke-linejoin="round"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path>
   <circle cx="1080" cy="1395" r="47" fill="#ff416c" opacity=".18"/>
 </g>
 <text x="345" y="1470" fill="#667085" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="6">SMALL PROJECTS · BIGGER POSSIBILITIES</text>
