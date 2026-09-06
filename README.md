@@ -43,6 +43,12 @@
 | [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Privacy-oriented, local-first cross-platform voice dictation | Pre-alpha |
 | [TermKeys](https://github.com/BLCCoreStudio/TermKeys) | Safer terminal shortcut and configuration management for Linux | Alpha |
 
+## Portfolio boundary
+
+Only projects intentionally presented on this profile should be read as the current public BLCCoreStudio portfolio. Repositories explicitly marked **sunset**, **discontinued**, or **maintenance-only** are retained only for historical/reference value and are not being presented as active products.
+
+Small utilities may remain public when they are independently useful and maintained, but repository count is not treated as a portfolio metric.
+
 ## How I build
 
 > Evidence before claims · local-first where it matters · reproducible CI and releases · conservative compatibility claims.
