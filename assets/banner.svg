@@ -1,32 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">BLCCoreStudio</title>
-  <desc id="desc">Independent developer tools, Linux utilities, and repository intelligence</desc>
+  <desc id="desc">Developer tools, local-first software, and Android products</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="45%" stop-color="#172554"/>
-      <stop offset="75%" stop-color="#312E81"/>
-      <stop offset="100%" stop-color="#0F766E"/>
+      <stop offset="0%" stop-color="#07111F"/>
+      <stop offset="48%" stop-color="#0B1E3A"/>
+      <stop offset="100%" stop-color="#102A43"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.78" cy="0.2" r="0.75">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.84" cy="0.28" r="0.62">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#glow)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
-  <g transform="translate(88 74)">
-    <rect x="0" y="0" width="8" height="118" rx="4" fill="#22D3EE"/>
-    <text x="34" y="64" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="0.5">BLCCoreStudio</text>
-    <text x="36" y="108" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing="1.2">INDEPENDENT DEVELOPER TOOLS  •  LINUX  •  REPOSITORY INTELLIGENCE</text>
+
+  <rect width="1200" height="300" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="26" fill="url(#glow)"/>
+  <rect width="1200" height="300" rx="26" fill="url(#grid)"/>
+
+  <g transform="translate(76 64)">
+    <rect x="0" y="4" width="54" height="54" rx="15" fill="#07111F" stroke="#38BDF8" stroke-opacity="0.65"/>
+    <path d="M15 17h10l7 10-7 10H15l7-10-7-10Zm24 0h-8l7 10-7 10h8l7-10-7-10Z" fill="url(#accent)"/>
+
+    <text x="74" y="49" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="750" letter-spacing="0.2">BLCCoreStudio</text>
+    <text x="2" y="103" fill="#C8D6E5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="500">Developer tools · local-first software · Android products</text>
+
+    <g transform="translate(2 132)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
+      <rect width="92" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
+      <text x="46" y="22" fill="#BAE6FD" text-anchor="middle">RUST</text>
+      <rect x="104" width="104" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
+      <text x="156" y="22" fill="#BAE6FD" text-anchor="middle">PYTHON</text>
+      <rect x="220" width="116" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
+      <text x="278" y="22" fill="#BAE6FD" text-anchor="middle">ANDROID</text>
+      <rect x="348" width="104" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
+      <text x="400" y="22" fill="#BAE6FD" text-anchor="middle">LINUX</text>
+    </g>
   </g>
-  <g transform="translate(930 78)" opacity="0.9">
-    <rect x="0" y="0" width="170" height="144" rx="22" fill="#020617" fill-opacity="0.44" stroke="#67E8F9" stroke-opacity="0.35"/>
-    <path d="M38 47h94M38 72h68M38 97h82" stroke="#A5F3FC" stroke-width="7" stroke-linecap="round"/>
-    <circle cx="126" cy="97" r="10" fill="#22D3EE"/>
+
+  <g transform="translate(850 50)">
+    <circle cx="120" cy="100" r="92" fill="#07111F" fill-opacity="0.62" stroke="#38BDF8" stroke-opacity="0.18"/>
+    <circle cx="120" cy="100" r="68" fill="none" stroke="#38BDF8" stroke-opacity="0.16" stroke-dasharray="4 8"/>
+    <circle cx="120" cy="100" r="42" fill="#0C223A" stroke="#67E8F9" stroke-opacity="0.38"/>
+    <path d="M105 83 89 100l16 17M135 83l16 17-16 17M126 77l-13 46" fill="none" stroke="#E0F2FE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="120" cy="8" r="6" fill="#22D3EE"/>
+    <circle cx="201" cy="137" r="5" fill="#38BDF8"/>
+    <circle cx="48" cy="160" r="4" fill="#7DD3FC"/>
   </g>
 </svg>
