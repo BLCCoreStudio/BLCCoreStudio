@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Naruto chakra contribution trail</title>
+  <desc id="desc">An animated Naruto-inspired action scene with a giant chakra ultimate, fox aura and glowing contribution-grid trail.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020617"/><stop offset=".6" stop-color="#081426"/><stop offset="1" stop-color="#140A0A"/></linearGradient>
+    <radialGradient id="rasengan"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".25" stop-color="#BAE6FD"/><stop offset=".58" stop-color="#38BDF8"/><stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chakra" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F59E0B"/><stop offset=".5" stop-color="#F97316"/><stop offset="1" stop-color="#FACC15"/></linearGradient>
+    <filter id="blueGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="orangeGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="23" height="23" patternUnits="userSpaceOnUse"><rect x="3" y="3" width="15" height="15" rx="3" fill="#1E293B" opacity=".7"/></pattern>
+  </defs>
+
+  <rect width="1200" height="460" rx="28" fill="url(#night)"/>
+  <circle cx="1080" cy="76" r="34" fill="#E2E8F0" opacity=".75"/><circle cx="1068" cy="64" r="9" fill="#94A3B8" opacity=".2"/>
+
+  <!-- giant fox chakra aura -->
+  <g opacity=".74" filter="url(#orangeGlow)">
+    <path d="M805 82C891 25 1010 44 1075 118C1116 166 1112 234 1063 267C1031 288 984 282 953 257C1002 260 1031 235 1028 199C1024 155 975 130 929 146C891 159 868 192 858 228C846 181 828 128 805 82Z" fill="none" stroke="url(#chakra)" stroke-width="12"><animate attributeName="stroke-width" values="9;17;9" dur="1.4s" repeatCount="indefinite"/></path>
+    <path d="M885 112L844 56L916 91M1006 122L1078 76L1042 146" fill="none" stroke="#FB923C" stroke-width="10" stroke-linecap="round"/>
+    <path d="M917 185Q946 164 976 184M1020 186Q1046 166 1068 184" fill="none" stroke="#FDE68A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M948 225Q1002 258 1050 222" fill="none" stroke="#FDBA74" stroke-width="9" stroke-linecap="round"/>
+    <path d="M858 244C806 212 792 159 760 122M878 267C818 249 782 229 735 196" fill="none" stroke="#F97316" stroke-width="9" stroke-linecap="round" stroke-dasharray="22 13"><animate attributeName="stroke-dashoffset" values="0;-70" dur="1.2s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- Naruto -->
+  <g id="naruto" transform="translate(510 55)">
+    <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;8 -5;0 0" dur=".9s" repeatCount="indefinite"/>
+    <!-- legs/body -->
+    <path d="M169 191L121 296L176 315L219 229Z" fill="#F97316" stroke="#0F172A" stroke-width="5"/>
+    <path d="M223 212L254 307L310 292L273 193Z" fill="#F97316" stroke="#0F172A" stroke-width="5"/>
+    <path d="M159 116C191 87 251 91 282 125L273 210C243 233 191 231 165 205Z" fill="#111827" stroke="#020617" stroke-width="5"/>
+    <path d="M173 137H267V198H173Z" fill="#F97316"/>
+    <path d="M218 133V203" stroke="#111827" stroke-width="7"/>
+    <!-- head -->
+    <circle cx="220" cy="88" r="51" fill="#F6C7A4" stroke="#0F172A" stroke-width="5"/>
+    <!-- hair -->
+    <path d="M176 56L160 26L191 39L194 8L213 35L230 4L239 36L271 16L258 49L293 43L269 67L286 81L253 78L246 47L204 43Z" fill="#FACC15" stroke="#EAB308" stroke-width="4"/>
+    <!-- headband -->
+    <path d="M171 61Q220 41 270 61L266 78Q220 65 175 79Z" fill="#111827"/>
+    <rect x="194" y="52" width="53" height="24" rx="5" fill="#CBD5E1" stroke="#64748B" stroke-width="3"/>
+    <path d="M220 57C211 60 209 70 218 72C224 73 231 68 226 63C224 60 219 60 216 62" fill="none" stroke="#334155" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- eyes/marks -->
+    <path d="M193 91Q203 84 212 91M230 91Q240 84 249 91" stroke="#0EA5E9" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="204" cy="91" r="3" fill="#0F172A"/><circle cx="239" cy="91" r="3" fill="#0F172A"/>
+    <path d="M185 104l-19 4M188 113l-19 8M255 104l19 4M252 113l19 8" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+    <path d="M205 121Q221 133 239 120" fill="none" stroke="#7C2D12" stroke-width="4" stroke-linecap="round"/>
+    <!-- throwing arm -->
+    <path d="M166 145L84 125L38 108" fill="none" stroke="#F6C7A4" stroke-width="28" stroke-linecap="round"/>
+    <path d="M147 140L86 123" stroke="#111827" stroke-width="37" stroke-linecap="round"/>
+    <path d="M275 143L336 109L387 67" fill="none" stroke="#F6C7A4" stroke-width="25" stroke-linecap="round"/>
+    <path d="M289 134L340 106" stroke="#111827" stroke-width="35" stroke-linecap="round"/>
+  </g>
+
+  <!-- Rasengan / ultimate -->
+  <g transform="translate(390 145)" filter="url(#blueGlow)">
+    <circle r="78" fill="url(#rasengan)" opacity=".94"><animate attributeName="r" values="64;92;64" dur="1.05s" repeatCount="indefinite"/></circle>
+    <circle r="50" fill="none" stroke="#E0F2FE" stroke-width="5" stroke-dasharray="14 9"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="indefinite"/></circle>
+    <circle r="69" fill="none" stroke="#38BDF8" stroke-width="4" stroke-dasharray="28 12"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="1.45s" repeatCount="indefinite"/></circle>
+    <path d="M-145 -12C-92 -60 -60 -45 -17 -11M-131 23C-89 58 -52 44 -13 12" fill="none" stroke="#38BDF8" stroke-width="9" stroke-linecap="round" opacity=".8" stroke-dasharray="28 15"><animate attributeName="stroke-dashoffset" values="0;-100" dur=".8s" repeatCount="indefinite"/></path>
+  </g>
+  <circle cx="390" cy="145" r="112" fill="none" stroke="#7DD3FC" stroke-opacity=".25" stroke-width="4"><animate attributeName="r" values="80;145" dur="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="1.2s" repeatCount="indefinite"/></circle>
+
+  <!-- massive chakra wave -->
+  <g filter="url(#orangeGlow)" opacity=".9">
+    <path d="M540 40C670 -15 820 17 905 92C989 166 955 239 850 268" fill="none" stroke="url(#chakra)" stroke-width="8" stroke-linecap="round" stroke-dasharray="35 22"><animate attributeName="stroke-dashoffset" values="0;-120" dur="1.4s" repeatCount="indefinite"/></path>
+    <path d="M493 29C652 -43 838 -4 963 104" fill="none" stroke="#FDBA74" stroke-opacity=".45" stroke-width="3"><animate attributeName="opacity" values=".15;.7;.15" dur="1s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- contribution grid -->
+  <g transform="translate(48 315)">
+    <text x="0" y="-18" fill="#CBD5E1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="4">CONTRIBUTION TRAIL · CHAKRA MODE ACTIVE</text>
+    <rect x="0" y="0" width="1104" height="112" rx="14" fill="#020617" fill-opacity=".64" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="18" y="15" width="1068" height="82" fill="url(#grid)"/>
+    <path d="M28 71C96 15 145 95 211 43S337 98 397 50S518 12 579 64S695 95 757 44S879 12 945 66S1039 88 1070 37" fill="none" stroke="#F59E0B" stroke-width="7" stroke-linecap="round" stroke-dasharray="13 12" filter="url(#orangeGlow)"><animate attributeName="stroke-dashoffset" values="0;-100" dur="1.1s" repeatCount="indefinite"/></path>
+    <circle cx="1070" cy="37" r="9" fill="#FEF3C7" filter="url(#orangeGlow)"><animate attributeName="r" values="5;14;5" dur=".9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- sparks -->
+  <g fill="#F8FAFC" filter="url(#blueGlow)">
+    <circle cx="271" cy="85" r="3"><animate attributeName="cy" values="85;45;85" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="344" cy="241" r="2.5"><animate attributeName="cx" values="344;306;344" dur="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="721" cy="88" r="2.5"><animate attributeName="opacity" values="0;1;0" dur=".7s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
