@@ -1,0 +1,40 @@
+name: Refresh profile dynamics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate live profile assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_profile.py
+
+      - name: Commit refreshed assets
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/project-cards.svg; then
+            echo "No profile metadata changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/project-cards.svg
+          git commit -m "chore(profile): refresh live project cards"
+          git push
