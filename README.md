@@ -1,67 +1,63 @@
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio developer profile" />
+<img width="100%" src="./assets/banner.svg" alt="BLCCoreStudio — developer tools, local-first software, and Android products" />
 
-# BLCDev
+<br />
 
-**Independent developer building developer tools, local-first software, Android products, and open-source infrastructure under `BLCCoreStudio`.**
+**Independent software studio building focused tools for developers, local-first products, and practical infrastructure.**
 
 `Rust` · `Python` · `Android` · `Linux` · `GitHub Actions` · `CI/CD` · `AI evaluation`
 
 </div>
 
-## Selected work
+## Start here
 
-| Project | Focus | Status |
+<table>
+<tr>
+<td width="33%" valign="top">
+<h3 align="center"><a href="https://github.com/BLCCoreStudio/OpenDevIndex">OpenDevIndex</a></h3>
+<p align="center"><strong>Structured developer knowledge</strong></p>
+<p>Source-backed technology knowledge map with validated entries, independent module branches, and search tooling.</p>
+<p align="center"><code>Python</code> · <code>Active</code></p>
+</td>
+<td width="33%" valign="top">
+<h3 align="center"><a href="https://github.com/BLCCoreStudio/AgentContextMap">AgentContextMap</a></h3>
+<p align="center"><strong>Know what instructs your coding agent</strong></p>
+<p>Local, read-only analysis of repository instruction systems with conflict detection, HTML reports, SARIF, and a GitHub Action.</p>
+<p align="center"><code>Rust</code> · <code>Stable</code></p>
+</td>
+<td width="33%" valign="top">
+<h3 align="center"><a href="https://github.com/BLCCoreStudio/RepoDoctor">RepoDoctor</a></h3>
+<p align="center"><strong>Repository health, made actionable</strong></p>
+<p>Repository health analysis with prioritized findings and optional CI quality gates, available as a GitHub Marketplace Action.</p>
+<p align="center"><code>Python</code> · <code>Marketplace</code></p>
+</td>
+</tr>
+</table>
+
+## More from the studio
+
+| Project | What it does | Stage |
 | --- | --- | --- |
-| [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap) | Maps repository instructions that can affect coding agents; local, read-only analysis with SARIF and HTML reporting | **Stable v0.2.3** · Rust · GitHub Action |
-| [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor) | Repository health analysis, prioritized findings, and optional CI quality gates | **Alpha** · GitHub Marketplace Action |
-| [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop infrastructure for Turkish AI text/audio evaluation and reliability analysis | **Alpha 0.13.x** · Python |
-| [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Privacy-oriented, local-first cross-platform voice dictation | **Pre-alpha** · Rust / Tauri |
-| [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex) | Source-backed structured technology knowledge map with validation and search tooling | **Active development** · Python |
-| [TermKeys](https://github.com/BLCCoreStudio/TermKeys) | Safer terminal shortcut and configuration management for Linux | **Alpha v0.1.0** · Linux |
+| [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit) | Human-in-the-loop infrastructure for Turkish AI text/audio evaluation and reliability analysis | Alpha |
+| [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice) | Privacy-oriented, local-first cross-platform voice dictation | Pre-alpha |
+| [TermKeys](https://github.com/BLCCoreStudio/TermKeys) | Safer terminal shortcut and configuration management for Linux | Alpha |
 
-## Engineering focus
+## How I build
 
-- **Evidence before claims** — compile success is not treated as proof of runtime reliability, security, accessibility, or compatibility.
-- **Local-first where it matters** — privacy boundaries and data ownership are explicit.
-- **Reproducible delivery** — CI, reviewed dependencies, tests, checksums, and release artifacts are part of the product surface.
-- **Conservative compatibility claims** — unsupported or unverified platforms remain clearly labeled.
-- **Maintainable scope** — experiments are consolidated or retired instead of being presented as mature products.
+> Evidence before claims · local-first where it matters · reproducible CI and releases · conservative compatibility claims.
 
-## Featured tools
+Projects are kept intentionally focused. Experiments that overlap are consolidated or retired instead of being presented as separate mature products.
 
-### AgentContextMap
+## Open-source work
 
-A local, read-only scanner for repository instruction systems used by Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Windsurf, and Cline. It does not execute repository instructions or send repository content to an LLM service.
-
-```yaml
-- uses: BLCCoreStudio/AgentContextMap@v0.2.3
-  with:
-    path: .
-```
-
-### RepoDoctor CI
-
-Repository-level engineering signals become a health score, prioritized findings, and optional quality gates. The documented first run is report-only so teams can inspect results before enforcing thresholds.
-
-```yaml
-- uses: BLCCoreStudio/RepoDoctor@v0.1.3
-```
-
-## Open-source contributions
-
-This account also contains forks used for upstream contribution work. They are contribution workspaces, not BLCCoreStudio-authored products, and are intentionally excluded from the product list above.
-
-## Current direction
-
-Public work is intentionally selective. New projects are expected to earn their place through a clear product boundary, reproducible validation, and an explicit maintenance plan before they are presented as active products.
+This account also includes forks used for upstream contribution work. Those repositories are contribution workspaces, not BLCCoreStudio-authored products.
 
 ---
 
 <div align="center">
 
-**BLCDev · BLCCoreStudio**  
-Build fewer things. Validate them properly. Maintain them well.
+<strong>BLCCoreStudio</strong><br />
+Focused software. Clear boundaries. Reproducible results.
 
 </div>
