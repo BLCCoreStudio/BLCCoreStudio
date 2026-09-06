@@ -4,100 +4,79 @@
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=900&color=67E8F9&center=true&vCenter=true&width=780&lines=Developer+tools+that+do+one+thing+well.;Local-first+software.+Clear+behavior.;Rust+%C2%B7+Python+%C2%B7+Kotlin+%C2%B7+Android.;Build.+Validate.+Ship." alt="Animated typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=900&color=67E8F9&center=true&vCenter=true&width=820&lines=Developer+tools+that+do+one+thing+well.;Local-first+software+and+Android+products.;Rust+%C2%B7+Python+%C2%B7+Kotlin+%C2%B7+Shell.;Build.+Validate.+Ship." alt="Animated typing intro" />
 
 <p>
-  I build focused developer tools and local-first software with an emphasis on inspectable behavior, practical automation and small, useful products.
+  I build focused developer tools, local-first software and small products with an emphasis on inspectable behavior and practical automation.
 </p>
 
 <p>
-  <a href="https://github.com/BLCCoreStudio/OpenDevIndex"><img src="https://img.shields.io/badge/OpenDevIndex-111827?style=for-the-badge&logo=github&logoColor=67E8F9" alt="OpenDevIndex" /></a>
-  <a href="https://github.com/BLCCoreStudio/RepoDoctor"><img src="https://img.shields.io/badge/RepoDoctor-111827?style=for-the-badge&logo=githubactions&logoColor=A78BFA" alt="RepoDoctor" /></a>
-  <a href="https://github.com/BLCCoreStudio/AgentContextMap"><img src="https://img.shields.io/badge/AgentContextMap-111827?style=for-the-badge&logo=rust&logoColor=F8FAFC" alt="AgentContextMap" /></a>
+  <a href="https://github.com/BLCCoreStudio/OpenDevIndex"><img src="https://img.shields.io/badge/OpenDevIndex-0F172A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="OpenDevIndex" /></a>
+  <a href="https://github.com/BLCCoreStudio/RepoDoctor"><img src="https://img.shields.io/badge/RepoDoctor-0F172A?style=for-the-badge&logo=githubactions&logoColor=A78BFA" alt="RepoDoctor" /></a>
+  <a href="https://github.com/BLCCoreStudio/AgentContextMap"><img src="https://img.shields.io/badge/AgentContextMap-0F172A?style=for-the-badge&logo=github&logoColor=F59E0B" alt="AgentContextMap" /></a>
 </p>
 
-<img width="100%" src="./assets/neon-unicorn.svg" alt="Animated BLC neon unicorn runner" />
+<img width="100%" src="./assets/neon-unicorn.svg" alt="Animated cinematic BLC unicorn runner" />
 
 </div>
 
 <br />
 
-## Live project board
+## 🚀 Featured Projects
 
-The board below is generated from the GitHub API and refreshed automatically by GitHub Actions, so stars, forks, languages and update dates can stay current without hand-editing the profile.
+Four selected public projects are shown as large animated cards. Stars, forks, primary language and update dates are refreshed automatically by GitHub Actions.
 
-<img width="100%" src="./assets/project-cards.svg" alt="Live project cards" />
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [OpenDevIndex](https://github.com/BLCCoreStudio/OpenDevIndex)
-A structured, source-backed index of software, developer tools, AI, security, open source and emerging technology.
-
-### [RepoDoctor](https://github.com/BLCCoreStudio/RepoDoctor)
-Repository health analysis for security, testing, CI/CD, dependencies, documentation and architecture.
-
-### [TurkishEvalKit](https://github.com/BLCCoreStudio/TurkishEvalKit)
-Tools for evaluating Turkish AI text and audio with review, calibration and reliability workflows.
-
-</td>
-<td width="50%" valign="top">
-
-### [AgentContextMap](https://github.com/BLCCoreStudio/AgentContextMap)
-A local, read-only tool for seeing which repository instructions can affect coding agents, including scope, conflicts and precedence.
-
-### [BLCVoice](https://github.com/BLCCoreStudio/BLCVoice)
-A privacy-focused, local-first voice dictation project.
-
-### [TermKeys](https://github.com/BLCCoreStudio/TermKeys)
-A small Linux utility for managing terminal shortcuts and aliases more safely.
-
-</td>
-</tr>
-</table>
+<img width="100%" src="./assets/project-cards.svg" alt="Animated featured project cards" />
 
 <br />
 
-## GitHub telemetry
+## 🧩 More Projects
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=BLCCoreStudio&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&include_all_commits=true&count_private=false" alt="GitHub stats" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=BLCCoreStudio&hide_border=true&background=0D1117&ring=67E8F9&fire=A78BFA&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=7D8590&currStreakNum=F8FAFC&sideNums=F8FAFC" alt="GitHub streak" />
+
+[![TurkishEvalKit](https://img.shields.io/badge/TurkishEvalKit-111827?style=for-the-badge&logo=github&logoColor=F472B6)](https://github.com/BLCCoreStudio/TurkishEvalKit)
+[![TermKeys](https://img.shields.io/badge/TermKeys-111827?style=for-the-badge&logo=gnubash&logoColor=FBBF24)](https://github.com/BLCCoreStudio/TermKeys)
+[![TaskBell](https://img.shields.io/badge/TaskBell-111827?style=for-the-badge&logo=linux&logoColor=67E8F9)](https://github.com/BLCCoreStudio/TaskBell)
+[![EnvGuard](https://img.shields.io/badge/EnvGuard-111827?style=for-the-badge&logo=dotenv&logoColor=34D399)](https://github.com/BLCCoreStudio/EnvGuard)
+[![DiskHog](https://img.shields.io/badge/DiskHog-111827?style=for-the-badge&logo=linux&logoColor=A78BFA)](https://github.com/BLCCoreStudio/DiskHog)
+[![HashCheck](https://img.shields.io/badge/HashCheck-111827?style=for-the-badge&logo=files&logoColor=60A5FA)](https://github.com/BLCCoreStudio/HashCheck)
+[![BuildTimer](https://img.shields.io/badge/BuildTimer-111827?style=for-the-badge&logo=clockify&logoColor=F97316)](https://github.com/BLCCoreStudio/BuildTimer)
+[![GitClean](https://img.shields.io/badge/GitClean-111827?style=for-the-badge&logo=git&logoColor=F87171)](https://github.com/BLCCoreStudio/GitClean)
+
 </div>
 
 <br />
 
-## Contribution trail
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BLCCoreStudio/BLCCoreStudio/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BLCCoreStudio/BLCCoreStudio/output/github-contribution-grid-snake.svg" />
-    <img width="100%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/BLCCoreStudio/BLCCoreStudio/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</div>
-
-<br />
-
-## Stack
+## 🛠 Languages & Tools
 
 <div align="center">
 
 ![Rust](https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=F8FAFC)
 ![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=67E8F9)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0D1117?style=for-the-badge&logo=kotlin&logoColor=A78BFA)
-![Android](https://img.shields.io/badge/Android-0D1117?style=for-the-badge&logo=android&logoColor=34D399)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FBBF24)
+![Shell](https://img.shields.io/badge/Shell-0D1117?style=for-the-badge&logo=gnubash&logoColor=34D399)
+![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=F8FAFC)
+![Android](https://img.shields.io/badge/Android-0D1117?style=for-the-badge&logo=android&logoColor=3DDC84)
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FACC15)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=60A5FA)
+![Markdown](https://img.shields.io/badge/Markdown-0D1117?style=for-the-badge&logo=markdown&logoColor=F8FAFC)
+![JSON](https://img.shields.io/badge/JSON-0D1117?style=for-the-badge&logo=json&logoColor=FBBF24)
+![YAML](https://img.shields.io/badge/YAML-0D1117?style=for-the-badge&logo=yaml&logoColor=F472B6)
+![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=67E8F9)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-0D1117?style=for-the-badge&logo=jetpackcompose&logoColor=34D399)
 
 </div>
 
 <br />
 
-## Small tools
+## ⚡ Contribution Trail — Chakra Mode
 
-[TaskBell](https://github.com/BLCCoreStudio/TaskBell) · [EnvGuard](https://github.com/BLCCoreStudio/EnvGuard) · [DiskHog](https://github.com/BLCCoreStudio/DiskHog) · [HashCheck](https://github.com/BLCCoreStudio/HashCheck) · [BuildTimer](https://github.com/BLCCoreStudio/BuildTimer) · [GitClean](https://github.com/BLCCoreStudio/GitClean)
+Instead of a plain stats panel, this section is built as an animated action scene: rotating blue chakra, a pulsing ultimate burst, a giant fox-like chakra aura, moving sparks and a glowing contribution-style trail.
+
+<div align="center">
+  <img width="100%" src="./assets/chakra-trail.svg" alt="Animated Naruto chakra contribution trail" />
+</div>
 
 <br />
 
@@ -107,6 +86,6 @@ A small Linux utility for managing terminal shortcuts and aliases more safely.
 
 `small scope` · `clear behavior` · `working software`
 
-<sub>Live project cards refresh daily. The contribution snake is generated automatically from public activity.</sub>
+<sub>Featured project metadata refreshes automatically. Profile visuals are repository-owned animated SVG assets.</sub>
 
 </div>
