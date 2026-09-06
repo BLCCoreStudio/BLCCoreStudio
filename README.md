@@ -72,8 +72,6 @@ Four selected public projects are shown as large animated cards. Stars, forks, p
 
 ## ⚡ Contribution Trail — Chakra Mode
 
-Instead of a plain stats panel, this section is built as an animated action scene: rotating blue chakra, a pulsing ultimate burst, a giant fox-like chakra aura, moving sparks and a glowing contribution-style trail.
-
 <div align="center">
   <img width="100%" src="./assets/chakra-trail.svg" alt="Animated Naruto chakra contribution trail" />
 </div>
