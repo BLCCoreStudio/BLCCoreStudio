@@ -1,55 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">BLCCoreStudio</title>
-  <desc id="desc">Developer tools, local-first software, and Android products</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">BLC Core Studio</title>
+  <desc id="desc">Independent software studio building reliable developer infrastructure, local-first products, and applied AI systems.</desc>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07111F"/>
-      <stop offset="48%" stop-color="#0B1E3A"/>
-      <stop offset="100%" stop-color="#102A43"/>
+      <stop offset="0" stop-color="#05070D"/>
+      <stop offset="0.42" stop-color="#09111D"/>
+      <stop offset="1" stop-color="#0A1725"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#22D3EE"/>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="0.52" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.84" cy="0.28" r="0.62">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.16" cy="0.18" r="0.62">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    <radialGradient id="glowB" cx="0.86" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="26" fill="url(#glow)"/>
-  <rect width="1200" height="300" rx="26" fill="url(#grid)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#glowA)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#glowB)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#grid)"/>
 
-  <g transform="translate(76 64)">
-    <rect x="0" y="4" width="54" height="54" rx="15" fill="#07111F" stroke="#38BDF8" stroke-opacity="0.65"/>
-    <path d="M15 17h10l7 10-7 10H15l7-10-7-10Zm24 0h-8l7 10-7 10h8l7-10-7-10Z" fill="url(#accent)"/>
+  <circle cx="1140" cy="78" r="88" fill="#22D3EE" fill-opacity="0.08" filter="url(#soft)"/>
+  <circle cx="1260" cy="330" r="105" fill="#A78BFA" fill-opacity="0.08" filter="url(#soft)"/>
 
-    <text x="74" y="49" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="750" letter-spacing="0.2">BLCCoreStudio</text>
-    <text x="2" y="103" fill="#C8D6E5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="500">Developer tools · local-first software · Android products</text>
+  <g transform="translate(84 68)">
+    <g>
+      <rect x="0" y="0" width="68" height="68" rx="20" fill="#0A1220" stroke="#7DD3FC" stroke-opacity="0.35"/>
+      <path d="M18 21h12l8 13-8 13H18l9-13-9-13Zm32 0h-9l8 13-8 13h9l9-13-9-13Z" fill="url(#brand)"/>
+    </g>
 
-    <g transform="translate(2 132)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
-      <rect width="92" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
-      <text x="46" y="22" fill="#BAE6FD" text-anchor="middle">RUST</text>
-      <rect x="104" width="104" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
-      <text x="156" y="22" fill="#BAE6FD" text-anchor="middle">PYTHON</text>
-      <rect x="220" width="116" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
-      <text x="278" y="22" fill="#BAE6FD" text-anchor="middle">ANDROID</text>
-      <rect x="348" width="104" height="34" rx="17" fill="#0F2944" stroke="#38BDF8" stroke-opacity="0.28"/>
-      <text x="400" y="22" fill="#BAE6FD" text-anchor="middle">LINUX</text>
+    <text x="90" y="49" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="760" letter-spacing="-1.2">BLC Core Studio</text>
+    <text x="2" y="108" fill="#8DA4BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3.2">INDEPENDENT SOFTWARE STUDIO</text>
+
+    <text x="2" y="165" fill="#E6EEF7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="560">Reliable developer infrastructure.</text>
+    <text x="2" y="202" fill="#E6EEF7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="560">Local-first products. Applied AI systems.</text>
+
+    <rect x="2" y="238" width="540" height="1" fill="url(#line)"/>
+
+    <g transform="translate(2 266)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="0.8">
+      <rect width="104" height="36" rx="18" fill="#0B1725" stroke="#22D3EE" stroke-opacity="0.22"/>
+      <text x="52" y="23" fill="#CFFAFE" text-anchor="middle">RUST</text>
+      <rect x="116" width="112" height="36" rx="18" fill="#0B1725" stroke="#22D3EE" stroke-opacity="0.22"/>
+      <text x="172" y="23" fill="#CFFAFE" text-anchor="middle">PYTHON</text>
+      <rect x="240" width="116" height="36" rx="18" fill="#0B1725" stroke="#22D3EE" stroke-opacity="0.22"/>
+      <text x="298" y="23" fill="#CFFAFE" text-anchor="middle">ANDROID</text>
+      <rect x="368" width="108" height="36" rx="18" fill="#0B1725" stroke="#A78BFA" stroke-opacity="0.22"/>
+      <text x="422" y="23" fill="#EDE9FE" text-anchor="middle">CI / CD</text>
+      <rect x="488" width="140" height="36" rx="18" fill="#0B1725" stroke="#A78BFA" stroke-opacity="0.22"/>
+      <text x="558" y="23" fill="#EDE9FE" text-anchor="middle">LOCAL-FIRST</text>
     </g>
   </g>
 
-  <g transform="translate(850 50)">
-    <circle cx="120" cy="100" r="92" fill="#07111F" fill-opacity="0.62" stroke="#38BDF8" stroke-opacity="0.18"/>
-    <circle cx="120" cy="100" r="68" fill="none" stroke="#38BDF8" stroke-opacity="0.16" stroke-dasharray="4 8"/>
-    <circle cx="120" cy="100" r="42" fill="#0C223A" stroke="#67E8F9" stroke-opacity="0.38"/>
-    <path d="M105 83 89 100l16 17M135 83l16 17-16 17M126 77l-13 46" fill="none" stroke="#E0F2FE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="120" cy="8" r="6" fill="#22D3EE"/>
-    <circle cx="201" cy="137" r="5" fill="#38BDF8"/>
-    <circle cx="48" cy="160" r="4" fill="#7DD3FC"/>
+  <g transform="translate(1018 72)">
+    <rect width="292" height="276" rx="24" fill="#08111D" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.075"/>
+    <text x="28" y="42" fill="#71859A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2.4">ENGINEERING SIGNAL</text>
+
+    <g font-family="Inter,Segoe UI,Arial,sans-serif">
+      <circle cx="31" cy="83" r="4" fill="#22D3EE"/>
+      <text x="48" y="89" fill="#E6EEF7" font-size="17" font-weight="650">Evidence before claims</text>
+
+      <circle cx="31" cy="126" r="4" fill="#22D3EE"/>
+      <text x="48" y="132" fill="#E6EEF7" font-size="17" font-weight="650">Local-first by default</text>
+
+      <circle cx="31" cy="169" r="4" fill="#A78BFA"/>
+      <text x="48" y="175" fill="#E6EEF7" font-size="17" font-weight="650">Reproducible releases</text>
+
+      <circle cx="31" cy="212" r="4" fill="#A78BFA"/>
+      <text x="48" y="218" fill="#E6EEF7" font-size="17" font-weight="650">Focused product scope</text>
+    </g>
+
+    <text x="28" y="250" fill="#60758A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">BLCCORESTUDIO / 2026</text>
   </g>
+
+  <rect x="1" y="1" width="1398" height="418" rx="27" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
 </svg>
