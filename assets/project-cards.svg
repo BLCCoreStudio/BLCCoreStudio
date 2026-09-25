@@ -77,7 +77,7 @@
     <circle cx="179" cy="126" r="9" fill="#DEA584"/>
     <text x="197" y="133" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Rust</text>
     <text x="360" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">☆</text>
-    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">1</text>
+    <text x="393" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">2</text>
     <text x="475" y="133" fill="#facc15" font-family="Inter,Segoe UI Symbol,Arial,sans-serif" font-size="24">⑂</text>
     <text x="510" y="133" fill="#e2e8f0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="19">0</text>
     <circle cx="1057" cy="80" r="31" fill="#281d2c"/>
